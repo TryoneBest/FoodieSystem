@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Around from "./views/AroundMap.vue";
 import Login from "./components/Login.vue";
 import Register from "./components/Register.vue";
+import Restaurant from "./components/Restaurant.vue";
 
 Vue.use(Router);
 
@@ -24,6 +25,11 @@ export default new Router({
       path: "/register",
       name: "register",
       component: Register
+    },
+    {
+      path: "/restaurant",
+      name: "restaurant",
+      component: Restaurant
     },
     {
       path: "/",
