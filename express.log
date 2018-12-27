@@ -1,4 +1,8 @@
-npm ERR! missing script: start
 
-npm ERR! A complete log of this run can be found in:
-npm ERR!     C:\Users\nwonknu\AppData\Roaming\npm-cache\_logs\2018-12-25T06_46_13_505Z-debug.log
+> express-server@1.0.0 start F:\Tongji Universerty\2018-2019 1st Term\Webservices and SQA\FoodieSystem\express-server
+> node ./node_modules/nodemon/bin/nodemon.js src/app.js
+
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node src/app.js`[39m

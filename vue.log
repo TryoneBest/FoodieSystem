@@ -2,26 +2,1531 @@
 > vue-server@0.1.0 serve F:\Tongji Universerty\2018-2019 1st Term\Webservices and SQA\FoodieSystem\vue-server
 > vue-cli-service serve
 
- ERROR  Error loading vue.config.js:
- ERROR  ReferenceError: conf is not defined
-ReferenceError: conf is not defined
-    at Object.<anonymous> (F:\Tongji Universerty\2018-2019 1st Term\Webservices and SQA\FoodieSystem\vue-server\vue.config.js:6:11)
-    at Module._compile (internal/modules/cjs/loader.js:688:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
-    at Module.load (internal/modules/cjs/loader.js:598:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
-    at Module.require (internal/modules/cjs/loader.js:636:17)
-    at require (internal/modules/cjs/helpers.js:20:18)
-    at Service.loadUserOptions (F:\Tongji Universerty\2018-2019 1st Term\Webservices and SQA\FoodieSystem\vue-server\node_modules\@vue\cli-service\lib\Service.js:283:22)
-    at Service.init (F:\Tongji Universerty\2018-2019 1st Term\Webservices and SQA\FoodieSystem\vue-server\node_modules\@vue\cli-service\lib\Service.js:72:30)
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! vue-server@0.1.0 serve: `vue-cli-service serve`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the vue-server@0.1.0 serve script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+ INFO  Starting development server...
+  0% compiling 10% building 0/0 modules 0 active 10% building 0/1 modules 1 active ...webpack\hot\dev-server.js ./src/main.js                                            10% building 1/1 modules 0 active 10% building 1/2 modules 1 active ...t\index.js?http://127.0.0.1/sockjs-node 10% building 1/3 modules 2 active ...\node_modules\webpack\hot\dev-server.js 10% building 2/3 modules 1 active ...\node_modules\webpack\hot\dev-server.js                                            10% building 3/3 modules 0 active 10% building 3/4 modules 1 active ...bpack\hot sync nonrecursive /^\.\/log$/                                            10% building 4/4 modules 0 active 10% building 4/5 modules 1 active ...stem\vue-server\node_modules\url\url.js 10% building 4/6 modules 2 active ...-server\node_modules\webpack\hot\log.js 10% building 4/7 modules 3 active ...modules\webpack\hot\log-apply-result.js 10% building 4/8 modules 4 active ...ver\node_modules\webpack\hot\emitter.js 10% building 4/9 modules 5 active ...les\webpack-dev-server\client\socket.js 10% building 4/10 modules 6 active ...es\webpack-dev-server\client\overlay.js 10% building 5/10 modules 5 active ...es\webpack-dev-server\client\overlay.js 10% building 6/10 modules 4 active ...es\webpack-dev-server\client\overlay.js 10% building 7/10 modules 3 active ...es\webpack-dev-server\client\overlay.js 10% building 8/10 modules 2 active ...es\webpack-dev-server\client\overlay.js 11% building 9/10 modules 1 active ...stem\vue-server\node_modules\url\url.js                                           11% building 10/10 modules 0 active 11% building 10/11 modules 1 active ...ue-server\node_modules\events\events.js 11% building 10/12 modules 2 active ...r\node_modules\querystring-es3\index.js 11% building 10/13 modules 3 active ...tem\vue-server\node_modules\url\util.js 11% building 10/14 modules 4 active ...owser\node_modules\punycode\punycode.js 11% building 11/14 modules 3 active ...owser\node_modules\punycode\punycode.js 11% building 12/14 modules 2 active ...owser\node_modules\punycode\punycode.js 11% building 13/14 modules 1 active ...owser\node_modules\punycode\punycode.js 11% building 13/15 modules 2 active ...SQA\FoodieSystem\vue-server\src\main.js 11% building 14/15 modules 1 active ...SQA\FoodieSystem\vue-server\src\main.js 11% building 14/16 modules 2 active ...server\node_modules\strip-ansi\index.js 11% building 14/17 modules 3 active ...de_modules\sockjs-client\dist\sockjs.js 11% building 14/18 modules 4 active ...r\node_modules\loglevel\lib\loglevel.js 11% building 15/18 modules 3 active ...r\node_modules\loglevel\lib\loglevel.js 11% building 15/19 modules 4 active ...\node_modules\webpack\buildin\module.js 11% building 15/20 modules 5 active ...\node_modules\webpack\buildin\global.js 11% building 16/20 modules 4 active ...\node_modules\webpack\buildin\global.js 11% building 16/21 modules 5 active ...\node_modules\querystring-es3\decode.js 11% building 16/22 modules 6 active ...\node_modules\querystring-es3\encode.js 11% building 16/23 modules 7 active ...-server\node_modules\ansi-html\index.js 12% building 17/23 modules 6 active ...-server\node_modules\ansi-html\index.js 12% building 18/23 modules 5 active ...-server\node_modules\ansi-html\index.js 12% building 19/23 modules 4 active ...-server\node_modules\ansi-html\index.js 12% building 20/23 modules 3 active ...-server\node_modules\ansi-html\index.js 12% building 21/23 modules 2 active ...-server\node_modules\ansi-html\index.js 12% building 22/23 modules 1 active ...de_modules\sockjs-client\dist\sockjs.js 12% building 22/24 modules 2 active ...ver\node_modules\html-entities\index.js 12% building 22/25 modules 3 active ...A\FoodieSystem\vue-server\src\router.js 12% building 22/26 modules 4 active ...QA\FoodieSystem\vue-server\src\store.js 12% building 22/27 modules 5 active ...ode_modules\vue\dist\vue.runtime.esm.js 12% building 22/28 modules 6 active ...eSystem\vue-server\src\plugins\axios.js 12% building 23/28 modules 5 active ...eSystem\vue-server\src\plugins\axios.js 12% building 24/28 modules 4 active ...eSystem\vue-server\src\plugins\axios.js 13% building 25/28 modules 3 active ...eSystem\vue-server\src\plugins\axios.js 13% building 26/28 modules 2 active ...ode_modules\vue\dist\vue.runtime.esm.js 13% building 26/29 modules 3 active ...s\core-js\modules\es6.array.iterator.js 13% building 26/30 modules 4 active ..._modules\core-js\modules\es6.promise.js 13% building 26/31 modules 5 active ...\core-js\modules\es7.promise.finally.js 13% building 26/32 modules 6 active ...dules\html-entities\lib\xml-entities.js 13% building 26/33 modules 7 active ...les\html-entities\lib\html4-entities.js 13% building 26/34 modules 8 active ...les\html-entities\lib\html5-entities.js 13% building 27/34 modules 7 active ...les\html-entities\lib\html5-entities.js 13% building 28/34 modules 6 active ...les\html-entities\lib\html5-entities.js 13% building 29/34 modules 5 active ...les\html-entities\lib\html5-entities.js 13% building 30/34 modules 4 active ...les\html-entities\lib\html5-entities.js 13% building 31/34 modules 3 active ...les\html-entities\lib\html5-entities.js 13% building 32/34 modules 2 active ...les\html-entities\lib\html5-entities.js 13% building 33/34 modules 1 active ...ode_modules\vue\dist\vue.runtime.esm.js 13% building 33/35 modules 2 active ...\core-js\modules\_add-to-unscopables.js 13% building 33/36 modules 3 active ...e_modules\core-js\modules\_iter-step.js 13% building 33/37 modules 4 active ...e_modules\core-js\modules\_iterators.js 13% building 33/38 modules 5 active ..._modules\core-js\modules\_to-iobject.js 13% building 33/39 modules 6 active ...modules\core-js\modules\_iter-define.js 13% building 33/40 modules 7 active ...node_modules\core-js\modules\_export.js 13% building 33/41 modules 8 active ...r\node_modules\core-js\modules\_core.js 13% building 33/42 modules 9 active ...node_modules\core-js\modules\_global.js 13% building 33/43 modules 10 active ...core-js\modules\_species-constructor.js 13% building 33/44 modules 11 active ...les\core-js\modules\_promise-resolve.js 13% building 33/45 modules 12 active ...ode_modules\core-js\modules\_library.js 13% building 33/46 modules 13 active ...er\node_modules\core-js\modules\_ctx.js 13% building 33/47 modules 14 active ...ode_modules\core-js\modules\_classof.js 13% building 33/48 modules 15 active ...e_modules\core-js\modules\_is-object.js 13% building 33/49 modules 16 active ..._modules\core-js\modules\_a-function.js 13% building 33/50 modules 17 active ...modules\core-js\modules\_an-instance.js 13% building 33/51 modules 18 active ...node_modules\core-js\modules\_for-of.js 13% building 33/52 modules 19 active ...r\node_modules\core-js\modules\_task.js 13% building 33/53 modules 20 active ...e_modules\core-js\modules\_microtask.js 13% building 33/54 modules 21 active ...e-js\modules\_new-promise-capability.js 13% building 33/55 modules 22 active ...ode_modules\core-js\modules\_perform.js 13% building 33/56 modules 23 active ..._modules\core-js\modules\_user-agent.js 13% building 33/57 modules 24 active ...er\node_modules\core-js\modules\_wks.js 13% building 33/58 modules 25 active ...odules\core-js\modules\_redefine-all.js 13% building 33/59 modules 26 active ...s\core-js\modules\_set-to-string-tag.js 13% building 33/60 modules 27 active ...modules\core-js\modules\_set-species.js 13% building 33/61 modules 28 active ...modules\core-js\modules\_iter-detect.js 13% building 33/62 modules 29 active ...server\node_modules\ansi-regex\index.js 13% building 33/63 modules 30 active ...SQA\FoodieSystem\vue-server\src\App.vue 13% building 33/64 modules 31 active ...stem\vue-server\src\views\AroundMap.vue 13% building 33/65 modules 32 active ...ieSystem\vue-server\src\views\About.vue 13% building 33/66 modules 33 active ...\vue-server\src\components\Register.vue 13% building 33/67 modules 34 active ...tem\vue-server\src\components\Login.vue 13% building 33/68 modules 35 active ...ue-server\src\components\Restaurant.vue 14% building 34/68 modules 34 active ...ue-server\src\components\Restaurant.vue 14% building 35/68 modules 33 active ...ue-server\src\components\Restaurant.vue 14% building 36/68 modules 32 active ...ue-server\src\components\Restaurant.vue 14% building 37/68 modules 31 active ...ue-server\src\components\Restaurant.vue 14% building 38/68 modules 30 active ...ue-server\src\components\Restaurant.vue 14% building 39/68 modules 29 active ...ue-server\src\components\Restaurant.vue 14% building 40/68 modules 28 active ...ue-server\src\components\Restaurant.vue 14% building 41/68 modules 27 active ...ue-server\src\components\Restaurant.vue 15% building 42/68 modules 26 active ...ue-server\src\components\Restaurant.vue 15% building 43/68 modules 25 active ...ue-server\src\components\Restaurant.vue 15% building 44/68 modules 24 active ...ue-server\src\components\Restaurant.vue 15% building 45/68 modules 23 active ...ue-server\src\components\Restaurant.vue 15% building 46/68 modules 22 active ...ue-server\src\components\Restaurant.vue 15% building 47/68 modules 21 active ...ue-server\src\components\Restaurant.vue 15% building 48/68 modules 20 active ...ue-server\src\components\Restaurant.vue 15% building 49/68 modules 19 active ...ue-server\src\components\Restaurant.vue 16% building 50/68 modules 18 active ...ue-server\src\components\Restaurant.vue 16% building 51/68 modules 17 active ...ue-server\src\components\Restaurant.vue 16% building 52/68 modules 16 active ...ue-server\src\components\Restaurant.vue 16% building 53/68 modules 15 active ...ue-server\src\components\Restaurant.vue 16% building 54/68 modules 14 active ...ue-server\src\components\Restaurant.vue 16% building 55/68 modules 13 active ...ue-server\src\components\Restaurant.vue 16% building 56/68 modules 12 active ...ue-server\src\components\Restaurant.vue 16% building 57/68 modules 11 active ...ue-server\src\components\Restaurant.vue 16% building 58/68 modules 10 active ...ue-server\src\components\Restaurant.vue  17% building 59/68 modules 9 active ...ue-server\src\components\Restaurant.vue 17% building 60/68 modules 8 active ...ue-server\src\components\Restaurant.vue 17% building 61/68 modules 7 active ...ue-server\src\components\Restaurant.vue 17% building 62/68 modules 6 active ...ue-server\src\components\Restaurant.vue 17% building 63/68 modules 5 active ...ue-server\src\components\Restaurant.vue 17% building 64/68 modules 4 active ...ue-server\src\components\Restaurant.vue 17% building 65/68 modules 3 active ...ue-server\src\components\Restaurant.vue 17% building 66/68 modules 2 active ...tem\vue-server\src\components\Login.vue 17% building 66/69 modules 3 active ...dules\vue-router\dist\vue-router.esm.js 17% building 66/70 modules 4 active ...rver\node_modules\vuex\dist\vuex.esm.js 17% building 66/71 modules 5 active ...\vue-server\node_modules\axios\index.js 17% building 66/72 modules 6 active ...\App.vue?vue&type=template&id=7ba5bd90& 18% building 67/72 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 67/73 modules 6 active ...er\src\App.vue?vue&type=script&lang=js& 18% building 68/73 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 68/74 modules 6 active ...dMap.vue?vue&type=template&id=2c578005& 18% building 69/74 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 69/75 modules 6 active ...\AroundMap.vue?vue&type=script&lang=js& 18% building 70/75 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 70/76 modules 6 active ...bout.vue?vue&type=template&id=039c5b43& 18% building 71/76 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 71/77 modules 6 active ...&type=template&id=7bf3755a&scoped=true& 18% building 72/77 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 72/78 modules 6 active ...s\Register.vue?vue&type=script&lang=js& 18% building 73/78 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 73/79 modules 6 active ...rant.vue?vue&type=template&id=9a290226& 18% building 74/79 modules 5 active ...\vue-server\node_modules\axios\index.js 18% building 74/80 modules 6 active ...Restaurant.vue?vue&type=script&lang=js& 19% building 75/80 modules 5 active ...\vue-server\node_modules\axios\index.js 19% building 75/81 modules 6 active ...er\src\App.vue?vue&type=script&lang=js& 19% building 75/82 modules 7 active ...\AroundMap.vue?vue&type=script&lang=js& 19% building 75/83 modules 8 active ...s\Register.vue?vue&type=script&lang=js& 19% building 75/84 modules 9 active ...Restaurant.vue?vue&type=script&lang=js& 19% building 76/84 modules 8 active ...Restaurant.vue?vue&type=script&lang=js& 19% building 77/84 modules 7 active ...Restaurant.vue?vue&type=script&lang=js& 19% building 77/85 modules 8 active ...r\node_modules\core-js\modules\_hide.js 19% building 77/86 modules 9 active ...ader\lib\runtime\componentNormalizer.js 19% building 77/87 modules 10 active ...\App.vue?vue&type=template&id=7ba5bd90& 19% building 77/88 modules 11 active ...dMap.vue?vue&type=template&id=2c578005& 19% building 77/89 modules 12 active ...bout.vue?vue&type=template&id=039c5b43& 19% building 77/90 modules 13 active ...&type=template&id=7bf3755a&scoped=true& 19% building 77/91 modules 14 active ...rant.vue?vue&type=template&id=9a290226& 19% building 77/92 modules 15 active ...de_modules\core-js\modules\_redefine.js 19% building 77/93 modules 16 active ...modules\core-js\modules\_iter-create.js 19% building 77/94 modules 17 active ..._modules\core-js\modules\_object-gpo.js 19% building 77/95 modules 18 active ...ode_modules\core-js\modules\_iobject.js 19% building 77/96 modules 19 active ...ode_modules\core-js\modules\_defined.js 19% building 77/97 modules 20 active ...e_modules\core-js\modules\_an-object.js 19% building 78/97 modules 19 active ...e_modules\core-js\modules\_an-object.js 19% building 79/97 modules 18 active ...e_modules\core-js\modules\_an-object.js 19% building 79/98 modules 19 active ...er\node_modules\core-js\modules\_cof.js 19% building 79/99 modules 20 active ...node_modules\core-js\modules\_invoke.js 19% building 79/100 modules 21 active ...r\node_modules\core-js\modules\_html.js 19% building 79/101 modules 22 active ..._modules\core-js\modules\_dom-create.js 19% building 79/102 modules 23 active ...e_modules\core-js\modules\_iter-call.js 19% building 79/103 modules 24 active ...dules\core-js\modules\_is-array-iter.js 19% building 79/104 modules 25 active ...e_modules\core-js\modules\_to-length.js 19% building 79/105 modules 26 active ...-js\modules\core.get-iterator-method.js 19% building 79/106 modules 27 active ...node_modules\core-js\modules\_shared.js 19% building 79/107 modules 28 active ...er\node_modules\core-js\modules\_uid.js 19% building 79/108 modules 29 active ...e_modules\core-js\modules\_object-dp.js 19% building 79/109 modules 30 active ...er\node_modules\core-js\modules\_has.js 19% building 79/110 modules 31 active ...modules\core-js\modules\_descriptors.js 19% building 80/110 modules 30 active ...modules\core-js\modules\_descriptors.js 19% building 81/110 modules 29 active ...modules\core-js\modules\_descriptors.js 19% building 82/110 modules 28 active ...modules\core-js\modules\_descriptors.js 19% building 82/111 modules 29 active ...odules\vue-hot-reload-api\dist\index.js 19% building 83/111 modules 28 active ...odules\vue-hot-reload-api\dist\index.js 20% building 84/111 modules 27 active ...odules\vue-hot-reload-api\dist\index.js 20% building 85/111 modules 26 active ...odules\vue-hot-reload-api\dist\index.js 20% building 86/111 modules 25 active ...odules\vue-hot-reload-api\dist\index.js 20% building 87/111 modules 24 active ...odules\vue-hot-reload-api\dist\index.js 20% building 88/111 modules 23 active ...odules\vue-hot-reload-api\dist\index.js 20% building 89/111 modules 22 active ...odules\vue-hot-reload-api\dist\index.js 20% building 90/111 modules 21 active ...odules\vue-hot-reload-api\dist\index.js 20% building 91/111 modules 20 active ...odules\vue-hot-reload-api\dist\index.js 21% building 92/111 modules 19 active ...odules\vue-hot-reload-api\dist\index.js 21% building 93/111 modules 18 active ...odules\vue-hot-reload-api\dist\index.js 21% building 94/111 modules 17 active ...odules\vue-hot-reload-api\dist\index.js 21% building 95/111 modules 16 active ...odules\vue-hot-reload-api\dist\index.js 21% building 95/112 modules 17 active ...vue-server\node_modules\vue\dist\vue.js 21% building 96/112 modules 16 active ...vue-server\node_modules\vue\dist\vue.js 21% building 97/112 modules 15 active ...vue-server\node_modules\vue\dist\vue.js 21% building 98/112 modules 14 active ...vue-server\node_modules\vue\dist\vue.js 21% building 99/112 modules 13 active ...vue-server\node_modules\vue\dist\vue.js 22% building 100/112 modules 12 active ...vue-server\node_modules\vue\dist\vue.js 22% building 101/112 modules 11 active ...vue-server\node_modules\vue\dist\vue.js 22% building 102/112 modules 10 active ...vue-server\node_modules\vue\dist\vue.js  22% building 103/112 modules 9 active ...vue-server\node_modules\vue\dist\vue.js 22% building 104/112 modules 8 active ...vue-server\node_modules\vue\dist\vue.js 22% building 105/112 modules 7 active ...vue-server\node_modules\vue\dist\vue.js 22% building 106/112 modules 6 active ...vue-server\node_modules\vue\dist\vue.js 22% building 107/112 modules 5 active ...vue-server\node_modules\vue\dist\vue.js 22% building 108/112 modules 4 active ...vue-server\node_modules\vue\dist\vue.js 23% building 109/112 modules 3 active ...vue-server\node_modules\vue\dist\vue.js 23% building 110/112 modules 2 active ...vue-server\node_modules\vue\dist\vue.js 23% building 110/113 modules 3 active ...-server\node_modules\axios\lib\axios.js 23% building 110/114 modules 4 active ...es\core-js\modules\es6.function.name.js 23% building 110/115 modules 5 active ...re-js\modules\es6.number.constructor.js 23% building 110/116 modules 6 active ...es\core-js\modules\es6.regexp.search.js 23% building 110/117 modules 7 active ...les\core-js\modules\es6.regexp.match.js 23% building 110/118 modules 8 active ...dules\core-js\modules\_property-desc.js 23% building 110/119 modules 9 active ...dules\core-js\modules\_object-create.js 23% building 110/120 modules 10 active ...e_modules\core-js\modules\_to-object.js 23% building 110/121 modules 11 active ..._modules\core-js\modules\_shared-key.js 23% building 111/121 modules 10 active ..._modules\core-js\modules\_shared-key.js 23% building 111/122 modules 11 active ..._modules\core-js\modules\_to-integer.js 23% building 111/123 modules 12 active ...ules\core-js\modules\_ie8-dom-define.js 23% building 111/124 modules 13 active ...odules\core-js\modules\_to-primitive.js 23% building 112/124 modules 12 active ...odules\core-js\modules\_to-primitive.js 23% building 112/125 modules 13 active ...\node_modules\core-js\modules\_fails.js 23% building 113/125 modules 12 active ...\node_modules\core-js\modules\_fails.js 23% building 114/125 modules 11 active ...\node_modules\core-js\modules\_fails.js 23% building 115/125 modules 10 active ...\node_modules\core-js\modules\_fails.js 23% building 115/126 modules 11 active ...&type=template&id=ef68022e&scoped=true& 23% building 116/126 modules 10 active ...\node_modules\core-js\modules\_fails.js 23% building 116/127 modules 11 active ...ents\Login.vue?vue&type=script&lang=js& 24% building 117/127 modules 10 active ...\node_modules\core-js\modules\_fails.js 24% building 117/128 modules 11 active ...&type=template&id=ef68022e&scoped=true& 24% building 117/129 modules 12 active ...ents\Login.vue?vue&type=script&lang=js& 24% building 118/129 modules 11 active ...ents\Login.vue?vue&type=script&lang=js& 24% building 118/130 modules 12 active ..._modules\regenerator-runtime\runtime.js 24% building 119/130 modules 11 active ..._modules\regenerator-runtime\runtime.js 24% building 120/130 modules 10 active ..._modules\regenerator-runtime\runtime.js  24% building 121/130 modules 9 active ..._modules\regenerator-runtime\runtime.js 24% building 122/130 modules 8 active ..._modules\regenerator-runtime\runtime.js 24% building 123/130 modules 7 active ..._modules\regenerator-runtime\runtime.js 24% building 124/130 modules 6 active ..._modules\regenerator-runtime\runtime.js 25% building 125/130 modules 5 active ..._modules\regenerator-runtime\runtime.js 25% building 126/130 modules 4 active ..._modules\regenerator-runtime\runtime.js 25% building 126/131 modules 5 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 127/131 modules 4 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 127/132 modules 5 active ...pp.vue?vue&type=style&index=0&lang=css& 25% building 128/132 modules 4 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 128/133 modules 5 active ...ap.vue?vue&type=style&index=0&lang=css& 25% building 129/133 modules 4 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 129/134 modules 5 active ...dex=0&id=7bf3755a&scoped=true&lang=css& 25% building 130/134 modules 4 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 130/135 modules 5 active ...nt.vue?vue&type=style&index=0&lang=css& 25% building 131/135 modules 4 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 131/136 modules 5 active ...dex=0&id=ef68022e&scoped=true&lang=css& 25% building 132/136 modules 4 active ...runtime\helpers\esm\asyncToGenerator.js 25% building 132/137 modules 5 active ...-server\node_modules\axios\lib\utils.js 25% building 132/138 modules 6 active ...rver\node_modules\axios\lib\defaults.js 25% building 132/139 modules 7 active ...core-js\modules\_inherit-if-required.js 25% building 132/140 modules 8 active ...modules\core-js\modules\_object-gopn.js 25% building 132/141 modules 9 active ...modules\core-js\modules\_object-gopd.js 25% building 132/142 modules 10 active ...modules\core-js\modules\_string-trim.js 25% building 132/143 modules 11 active ..._modules\core-js\modules\_same-value.js 25% building 132/144 modules 12 active ...ore-js\modules\_regexp-exec-abstract.js 25% building 132/145 modules 13 active ..._modules\core-js\modules\_fix-re-wks.js 25% building 132/146 modules 14 active ...ore-js\modules\_advance-string-index.js 25% building 132/147 modules 15 active ...pp.vue?vue&type=style&index=0&lang=css& 25% building 133/147 modules 14 active ...ore-js\modules\_advance-string-index.js 25% building 133/148 modules 15 active ...ap.vue?vue&type=style&index=0&lang=css& 26% building 134/148 modules 14 active ...ore-js\modules\_advance-string-index.js 26% building 134/149 modules 15 active ...dex=0&id=7bf3755a&scoped=true&lang=css& 26% building 135/149 modules 14 active ...ore-js\modules\_advance-string-index.js 26% building 135/150 modules 15 active ...nt.vue?vue&type=style&index=0&lang=css& 26% building 136/150 modules 14 active ...ore-js\modules\_advance-string-index.js 26% building 136/151 modules 15 active ...dex=0&id=ef68022e&scoped=true&lang=css& 26% building 137/151 modules 14 active ...ore-js\modules\_advance-string-index.js 26% building 137/152 modules 15 active ...pp.vue?vue&type=style&index=0&lang=css& 26% building 137/153 modules 16 active ...ap.vue?vue&type=style&index=0&lang=css& 26% building 137/154 modules 17 active ...dex=0&id=7bf3755a&scoped=true&lang=css& 26% building 137/155 modules 18 active ...nt.vue?vue&type=style&index=0&lang=css& 26% building 137/156 modules 19 active ...dex=0&id=ef68022e&scoped=true&lang=css& 26% building 138/156 modules 18 active ...dex=0&id=ef68022e&scoped=true&lang=css& 26% building 138/157 modules 19 active ...\node_modules\axios\lib\helpers\bind.js 26% building 138/158 modules 20 active ...ode_modules\axios\lib\helpers\spread.js 26% building 138/159 modules 21 active ...node_modules\axios\lib\cancel\Cancel.js 26% building 138/160 modules 22 active ...modules\axios\lib\cancel\CancelToken.js 26% building 138/161 modules 23 active ...de_modules\axios\lib\cancel\isCancel.js 26% building 138/162 modules 24 active ...er\node_modules\axios\lib\core\Axios.js 26% building 138/163 modules 25 active ..._modules\core-js\modules\_object-dps.js 26% building 138/164 modules 26 active ...dules\core-js\modules\_enum-bug-keys.js 26% building 139/164 modules 25 active ...dules\core-js\modules\_enum-bug-keys.js 26% building 140/164 modules 24 active ...dules\core-js\modules\_enum-bug-keys.js 26% building 141/164 modules 23 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 142/164 modules 22 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 143/164 modules 21 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 144/164 modules 20 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 145/164 modules 19 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 146/164 modules 18 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 147/164 modules 17 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 148/164 modules 16 active ...dules\core-js\modules\_enum-bug-keys.js 27% building 149/164 modules 15 active ...dules\core-js\modules\_enum-bug-keys.js 28% building 150/164 modules 14 active ...dules\core-js\modules\_enum-bug-keys.js 28% building 151/164 modules 13 active ...dules\core-js\modules\_enum-bug-keys.js 28% building 152/164 modules 12 active ...dules\core-js\modules\_enum-bug-keys.js 28% building 153/164 modules 11 active ...dules\core-js\modules\_enum-bug-keys.js 28% building 154/164 modules 10 active ...dules\core-js\modules\_enum-bug-keys.js  28% building 155/164 modules 9 active ...dules\core-js\modules\_enum-bug-keys.js 28% building 156/164 modules 8 active ...dex=0&id=ef68022e&scoped=true&lang=css& 28% building 156/165 modules 9 active ...vue-style-loader\lib\addStylesClient.js 28% building 157/165 modules 8 active ...dex=0&id=ef68022e&scoped=true&lang=css& 28% building 158/165 modules 7 active ...dex=0&id=ef68022e&scoped=true&lang=css& 28% building 158/166 modules 8 active ...xios\lib\helpers\normalizeHeaderName.js 28% building 158/167 modules 9 active ...dules\node-libs-browser\mock\process.js 28% building 158/168 modules 10 active ...e_modules\core-js\modules\_set-proto.js 28% building 158/169 modules 11 active ...ore-js\modules\_object-keys-internal.js 28% building 158/170 modules 12 active ..._modules\core-js\modules\_object-pie.js 28% building 158/171 modules 13 active ...e_modules\core-js\modules\_string-ws.js 28% building 158/172 modules 14 active ...ules\core-js\modules\es6.regexp.exec.js 28% building 158/173 modules 15 active ...modules\core-js\modules\_regexp-exec.js 28% building 158/174 modules 16 active ...e_modules\core-js\modules\_string-at.js 28% building 158/175 modules 17 active ...\node_modules\axios\lib\adapters\xhr.js 28% building 158/176 modules 18 active ...es\axios\lib\core\InterceptorManager.js 28% building 158/177 modules 19 active ...dules\axios\lib\core\dispatchRequest.js 28% building 158/178 modules 20 active ...modules\core-js\modules\_object-keys.js 29% building 159/178 modules 19 active ...modules\core-js\modules\_object-keys.js 29% building 160/178 modules 18 active ...modules\core-js\modules\_object-keys.js 29% building 161/178 modules 17 active ...modules\core-js\modules\_object-keys.js 29% building 162/178 modules 16 active ...modules\core-js\modules\_object-keys.js 29% building 163/178 modules 15 active ...modules\core-js\modules\_object-keys.js 29% building 164/178 modules 14 active ...modules\core-js\modules\_object-keys.js 29% building 165/178 modules 13 active ...modules\core-js\modules\_object-keys.js 29% building 166/178 modules 12 active ...modules\core-js\modules\_object-keys.js 30% building 167/178 modules 11 active ...modules\core-js\modules\_object-keys.js 30% building 168/178 modules 10 active ...modules\core-js\modules\_object-keys.js  30% building 169/178 modules 9 active ...modules\core-js\modules\_object-keys.js 30% building 170/178 modules 8 active ...modules\core-js\modules\_object-keys.js 30% building 171/178 modules 7 active ...modules\core-js\modules\_object-keys.js 30% building 172/178 modules 6 active ...dex=0&id=ef68022e&scoped=true&lang=css& 30% building 172/179 modules 7 active ...es\vue-style-loader\lib\listToStyles.js 30% building 173/179 modules 6 active ...es\vue-style-loader\lib\listToStyles.js 30% building 174/179 modules 5 active ...dex=0&id=ef68022e&scoped=true&lang=css& 30% building 174/180 modules 6 active ...r\node_modules\path-browserify\index.js 30% building 174/181 modules 7 active ...-server\node_modules\is-buffer\index.js 30% building 174/182 modules 8 active ...ules\core-js\modules\_array-includes.js 31% building 175/182 modules 7 active ...ules\core-js\modules\_array-includes.js 31% building 175/183 modules 8 active ...\node_modules\core-js\modules\_flags.js 31% building 175/184 modules 9 active ...r\node_modules\axios\lib\core\settle.js 31% building 175/185 modules 10 active ...e_modules\axios\lib\helpers\buildURL.js 31% building 175/186 modules 11 active ...dules\axios\lib\helpers\parseHeaders.js 31% building 175/187 modules 12 active ...es\axios\lib\helpers\isURLSameOrigin.js 31% building 175/188 modules 13 active ...e_modules\axios\lib\core\createError.js 31% building 175/189 modules 14 active ...\node_modules\axios\lib\helpers\btoa.js 31% building 175/190 modules 15 active ...de_modules\axios\lib\helpers\cookies.js 31% building 175/191 modules 16 active ...modules\axios\lib\core\transformData.js 31% building 175/192 modules 17 active ...ules\axios\lib\helpers\isAbsoluteURL.js 31% building 175/193 modules 18 active ...odules\axios\lib\helpers\combineURLs.js 31% building 175/194 modules 19 active ...ieSystem\vue-server\src\service\user.js 31% building 176/194 modules 18 active ...ieSystem\vue-server\src\service\user.js 31% building 177/194 modules 17 active ...ieSystem\vue-server\src\service\user.js 31% building 178/194 modules 16 active ...ieSystem\vue-server\src\service\user.js 31% building 179/194 modules 15 active ...ieSystem\vue-server\src\service\user.js 31% building 180/194 modules 14 active ...ieSystem\vue-server\src\service\user.js 31% building 181/194 modules 13 active ...ieSystem\vue-server\src\service\user.js 31% building 182/194 modules 12 active ...ieSystem\vue-server\src\service\user.js 31% building 183/194 modules 11 active ...ieSystem\vue-server\src\service\user.js 32% building 184/194 modules 10 active ...ieSystem\vue-server\src\service\user.js  32% building 185/194 modules 9 active ...ieSystem\vue-server\src\service\user.js 32% building 186/194 modules 8 active ...ieSystem\vue-server\src\service\user.js 32% building 187/194 modules 7 active ...ieSystem\vue-server\src\service\user.js 32% building 188/194 modules 6 active ...ieSystem\vue-server\src\service\user.js 32% building 189/194 modules 5 active ...ieSystem\vue-server\src\service\user.js 32% building 189/195 modules 6 active ...node_modules\css-loader\lib\css-base.js 32% building 190/195 modules 5 active ...node_modules\css-loader\lib\css-base.js 32% building 191/195 modules 4 active ...node_modules\css-loader\lib\css-base.js 33% building 192/195 modules 3 active ...node_modules\css-loader\lib\css-base.js 33% building 193/195 modules 2 active ...ieSystem\vue-server\src\service\user.js 33% building 193/196 modules 3 active ...s\core-js\modules\_to-absolute-index.js 33% building 194/196 modules 2 active ...s\core-js\modules\_to-absolute-index.js 33% building 194/197 modules 3 active ..._modules\axios\lib\core\enhanceError.js 33% building 195/197 modules 2 active ..._modules\axios\lib\core\enhanceError.js 33% building 196/197 modules 1 active ...ieSystem\vue-server\src\service\user.js 33% building 196/198 modules 2 active ...de_modules\css-loader\lib\url\escape.js 33% building 197/198 modules 1 active ...ieSystem\vue-server\src\service\user.js 33% building 197/199 modules 2 active ...tem\vue-server\src\assets\user_name.png 33% building 197/200 modules 3 active ...vue-server\src\assets\user_password.png 33% building 198/200 modules 2 active ...vue-server\src\assets\user_password.png 33% building 199/200 modules 1 active ...vue-server\src\assets\user_password.png                                            34% building 200/200 modules 0 active 34% building 200/201 modules 1 active ...dieSystem\vue-server\src\service\api.js                                            34% building 201/201 modules 0 active 34% building 201/202 modules 1 active ...SQA\FoodieSystem\vue-server\config.json                                            34% building 202/202 modules 0 active 70% building 202/202 modules 0 active               70% finish module graph 70% finish module graph FlagDependencyExportsPlugin                                         70% sealing 70% sealing WarnCaseSensitiveModulesPlugin        71% basic dependencies optimization       72% dependencies optimization 72% advanced dependencies optimization    73% after dependencies optimization                     70% chunk graph 71% after chunk graph 71% after chunk graph WebAssemblyModulesPlugin                                 73% optimizing 74% basic module optimization       74% module optimization 75% advanced module optimization    75% after module optimization  76% basic chunk optimization 76% basic chunk optimization EnsureChunkConditionsPlugin   76% basic chunk optimization RemoveParentModulesPlugin   76% basic chunk optimization RemoveEmptyChunksPlugin 76% basic chunk optimization MergeDuplicateChunksPlugin                                  76% chunk optimization 77% advanced chunk optimization 77% advanced chunk optimization SplitChunksPlugin 77% advanced chunk optimization RemoveEmptyChunksPlugin                            77% after chunk optimization 78% module and chunk tree optimization 78% after module and chunk tree optimization         79% basic chunk modules optimization       79% chunk modules optimization 80% advanced chunk modules optimization    80% after chunk modules optimization                  81% module reviving 81% module reviving RecordIdsPlugin       81% module order optimization 82% advanced module order optimization                  82% before module ids 82% before module ids NamedModulesPlugin                           83% module ids 83% module id optimization 84% module id optimization         84% chunk reviving 84% chunk reviving RecordIdsPlugin       85% chunk order optimization 85% chunk order optimization OccurrenceOrderChunkIdsPlugin                                       85% before chunk ids 85% before chunk ids NamedChunksPlugin              86% chunk id optimization 86% after chunk id optimization              87% record modules 87% record modules RecordIdsPlugin                  87% record chunks 87% record chunks RecordIdsPlugin                       88% hashing 88% content hashing 88% content hashing JavascriptModulesPlugin                         88% content hashing 88% content hashing JavascriptModulesPlugin                           89% after hashing 89% after hashing HotModuleReplacementPlugin                              89% record hash 90% module assets processing  90% chunk assets processing 91% additional chunk assets processing 91% additional chunk assets processing HotModuleReplacementPlugin                                                     91% recording 91% recording HotModuleReplacementPlugin          92% additional asset processing    92% chunk asset optimization 93% after chunk asset optimization 93% after chunk asset optimization SourceMapDevToolPlugin 93% after chunk asset optimization SourceMapDevToolPlugin about.js generate SourceMap   93% after chunk asset optimization SourceMapDevToolPlugin app.js generate SourceMap           93% after chunk asset optimization SourceMapDevToolPlugin resolve sources 93% after chunk asset optimization SourceMapDevToolPlugin about.js attach SourceMap   93% after chunk asset optimization SourceMapDevToolPlugin app.js attach SourceMap                         93% after chunk asset optimization SourceMapDevToolPlugin                                    93% asset optimization 94% after asset optimization               94% after seal   95% emitting 95% emitting HtmlWebpackPlugin        95% emitting CopyPlugin      98% after emitting 98% after emitting CopyPlugin WARNING  Compiled with 3 warnings21:19:40
 
-npm ERR! A complete log of this run can be found in:
-npm ERR!     C:\Users\nwonknu\AppData\Roaming\npm-cache\_logs\2018-12-25T06_46_14_258Z-debug.log
+Module Warning (from ./node_modules/eslint-loader/index.js):
+warning: Replace `'../service/user'` with `"../service/user"` (prettier/prettier) at src\components\Login.vue:21:25:
+  19 | 
+  20 | <script>
+> 21 | import UserService from '../service/user';
+     |                         ^
+  22 | export default {
+  23 |     name:'login',
+  24 |     data() {
+
+
+warning: Replace `····name:'login'` with `··name:·"login"` (prettier/prettier) at src\components\Login.vue:23:1:
+  21 | import UserService from '../service/user';
+  22 | export default {
+> 23 |     name:'login',
+     | ^
+  24 |     data() {
+  25 |         return {
+  26 |             username: '',
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:24:1:
+  22 | export default {
+  23 |     name:'login',
+> 24 |     data() {
+     | ^
+  25 |         return {
+  26 |             username: '',
+  27 |             password: '',
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:25:1:
+  23 |     name:'login',
+  24 |     data() {
+> 25 |         return {
+     | ^
+  26 |             username: '',
+  27 |             password: '',
+  28 |         }
+
+
+warning: Replace `············username:·''` with `······username:·""` (prettier/prettier) at src\components\Login.vue:26:1:
+  24 |     data() {
+  25 |         return {
+> 26 |             username: '',
+     | ^
+  27 |             password: '',
+  28 |         }
+  29 |     },
+
+
+warning: Replace `············password:·'',` with `······password:·""` (prettier/prettier) at src\components\Login.vue:27:1:
+  25 |         return {
+  26 |             username: '',
+> 27 |             password: '',
+     | ^
+  28 |         }
+  29 |     },
+  30 |     components: {
+
+
+warning: Replace `········}` with `····};` (prettier/prettier) at src\components\Login.vue:28:1:
+  26 |             username: '',
+  27 |             password: '',
+> 28 |         }
+     | ^
+  29 |     },
+  30 |     components: {
+  31 |     },
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:29:1:
+  27 |             password: '',
+  28 |         }
+> 29 |     },
+     | ^
+  30 |     components: {
+  31 |     },
+  32 |     computed: {
+
+
+warning: Replace `····components:·{␍⏎····` with `··components:·{` (prettier/prettier) at src\components\Login.vue:30:1:
+  28 |         }
+  29 |     },
+> 30 |     components: {
+     | ^
+  31 |     },
+  32 |     computed: {
+  33 |         usernameInvalid() {
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:32:3:
+  30 |     components: {
+  31 |     },
+> 32 |     computed: {
+     |   ^
+  33 |         usernameInvalid() {
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+  35 |         },
+
+
+warning: Delete `····` (prettier/prettier) at src\components\Login.vue:33:1:
+  31 |     },
+  32 |     computed: {
+> 33 |         usernameInvalid() {
+     | ^
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+  35 |         },
+  36 |     },
+
+
+warning: Replace `······return·!(this.username.match(/^[a-zA-Z0-9]+$/))` with `return·!this.username.match(/^[a-zA-Z0-9]+$/)` (prettier/prettier) at src\components\Login.vue:34:7:
+  32 |     computed: {
+  33 |         usernameInvalid() {
+> 34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+     |       ^
+  35 |         },
+  36 |     },
+  37 |     methods: {
+
+
+warning: Replace `········},` with `····}` (prettier/prettier) at src\components\Login.vue:35:1:
+  33 |         usernameInvalid() {
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+> 35 |         },
+     | ^
+  36 |     },
+  37 |     methods: {
+  38 |         async confirmLogin(){
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:36:1:
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+  35 |         },
+> 36 |     },
+     | ^
+  37 |     methods: {
+  38 |         async confirmLogin(){
+  39 |             // TODO we can do a shake animation here.
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:37:1:
+  35 |         },
+  36 |     },
+> 37 |     methods: {
+     | ^
+  38 |         async confirmLogin(){
+  39 |             // TODO we can do a shake animation here.
+  40 |             if(this.usernameInvalid) {
+
+
+warning: Replace `····async·confirmLogin()` with `async·confirmLogin()·` (prettier/prettier) at src\components\Login.vue:38:5:
+  36 |     },
+  37 |     methods: {
+> 38 |         async confirmLogin(){
+     |     ^
+  39 |             // TODO we can do a shake animation here.
+  40 |             if(this.usernameInvalid) {
+  41 |                 alert('用户名格式不正确');
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:39:1:
+  37 |     methods: {
+  38 |         async confirmLogin(){
+> 39 |             // TODO we can do a shake animation here.
+     | ^
+  40 |             if(this.usernameInvalid) {
+  41 |                 alert('用户名格式不正确');
+  42 |                 return;
+
+
+warning: Replace `············if` with `······if·` (prettier/prettier) at src\components\Login.vue:40:1:
+  38 |         async confirmLogin(){
+  39 |             // TODO we can do a shake animation here.
+> 40 |             if(this.usernameInvalid) {
+     | ^
+  41 |                 alert('用户名格式不正确');
+  42 |                 return;
+  43 |             }
+
+
+warning: Replace `········alert('用户名格式不正确'` with `alert("用户名格式不正确"` (prettier/prettier) at src\components\Login.vue:41:9:
+  39 |             // TODO we can do a shake animation here.
+  40 |             if(this.usernameInvalid) {
+> 41 |                 alert('用户名格式不正确');
+     |         ^
+  42 |                 return;
+  43 |             }
+  44 |             this.username = this.username.trim();
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:42:1:
+  40 |             if(this.usernameInvalid) {
+  41 |                 alert('用户名格式不正确');
+> 42 |                 return;
+     | ^
+  43 |             }
+  44 |             this.username = this.username.trim();
+  45 |             this.password = this.password.trim();
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:43:1:
+  41 |                 alert('用户名格式不正确');
+  42 |                 return;
+> 43 |             }
+     | ^
+  44 |             this.username = this.username.trim();
+  45 |             this.password = this.password.trim();
+  46 |             if(this.username == '' || this.password == ''){
+
+
+warning: Delete `······` (prettier/prettier) at src\components\Login.vue:44:1:
+  42 |                 return;
+  43 |             }
+> 44 |             this.username = this.username.trim();
+     | ^
+  45 |             this.password = this.password.trim();
+  46 |             if(this.username == '' || this.password == ''){
+  47 |                 window.alert("Your user name or password can't be null!");
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:45:1:
+  43 |             }
+  44 |             this.username = this.username.trim();
+> 45 |             this.password = this.password.trim();
+     | ^
+  46 |             if(this.username == '' || this.password == ''){
+  47 |                 window.alert("Your user name or password can't be null!");
+  48 |             } else {
+
+
+warning: Replace `······if(this.username·==·''·||·this.password·==·'')` with `if·(this.username·==·""·||·this.password·==·"")·` (prettier/prettier) at src\components\Login.vue:46:7:
+  44 |             this.username = this.username.trim();
+  45 |             this.password = this.password.trim();
+> 46 |             if(this.username == '' || this.password == ''){
+     |       ^
+  47 |                 window.alert("Your user name or password can't be null!");
+  48 |             } else {
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:47:1:
+  45 |             this.password = this.password.trim();
+  46 |             if(this.username == '' || this.password == ''){
+> 47 |                 window.alert("Your user name or password can't be null!");
+     | ^
+  48 |             } else {
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+  50 |                 //if(response.data.success){
+
+
+warning: Delete `······` (prettier/prettier) at src\components\Login.vue:48:1:
+  46 |             if(this.username == '' || this.password == ''){
+  47 |                 window.alert("Your user name or password can't be null!");
+> 48 |             } else {
+     | ^
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+  50 |                 //if(response.data.success){
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:49:9:
+  47 |                 window.alert("Your user name or password can't be null!");
+  48 |             } else {
+> 49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+     |         ^
+  50 |                 //if(response.data.success){
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:50:9:
+  48 |             } else {
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+> 50 |                 //if(response.data.success){
+     |         ^
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+  53 |                 const response = await UserService.userLogin(this.name, this.password);
+
+
+warning: Replace `····················` with `········` (prettier/prettier) at src\components\Login.vue:51:1:
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+  50 |                 //if(response.data.success){
+> 51 |                     //this.$store.dispatch('setUid', response.data.uid);
+     | ^
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+  53 |                 const response = await UserService.userLogin(this.name, this.password);
+  54 |                 if(response.data.success){
+
+
+warning: Replace `····················` with `········` (prettier/prettier) at src\components\Login.vue:52:1:
+  50 |                 //if(response.data.success){
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+> 52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+     | ^
+  53 |                 const response = await UserService.userLogin(this.name, this.password);
+  54 |                 if(response.data.success){
+  55 |                     console.log(this.$store.state.user)
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:53:1:
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+> 53 |                 const response = await UserService.userLogin(this.name, this.password);
+     | ^
+  54 |                 if(response.data.success){
+  55 |                     console.log(this.$store.state.user)
+  56 |                     this.$store.commit('setUid', response.data.uid);
+
+
+warning: Replace `········if(response.data.success)` with `if·(response.data.success)·` (prettier/prettier) at src\components\Login.vue:54:9:
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+  53 |                 const response = await UserService.userLogin(this.name, this.password);
+> 54 |                 if(response.data.success){
+     |         ^
+  55 |                     console.log(this.$store.state.user)
+  56 |                     this.$store.commit('setUid', response.data.uid);
+  57 |                     console.log(this.$store.state.user);
+
+
+warning: Replace `····················console.log(this.$store.state.user)` with `··········console.log(this.$store.state.user);` (prettier/prettier) at src\components\Login.vue:55:1:
+  53 |                 const response = await UserService.userLogin(this.name, this.password);
+  54 |                 if(response.data.success){
+> 55 |                     console.log(this.$store.state.user)
+     | ^
+  56 |                     this.$store.commit('setUid', response.data.uid);
+  57 |                     console.log(this.$store.state.user);
+  58 |                 }
+
+
+warning: Replace `····················this.$store.commit('setUid'` with `··········this.$store.commit("setUid"` (prettier/prettier) at src\components\Login.vue:56:1:
+  54 |                 if(response.data.success){
+  55 |                     console.log(this.$store.state.user)
+> 56 |                     this.$store.commit('setUid', response.data.uid);
+     | ^
+  57 |                     console.log(this.$store.state.user);
+  58 |                 }
+  59 |                 //} else {
+
+
+warning: Delete `··········` (prettier/prettier) at src\components\Login.vue:57:1:
+  55 |                     console.log(this.$store.state.user)
+  56 |                     this.$store.commit('setUid', response.data.uid);
+> 57 |                     console.log(this.$store.state.user);
+     | ^
+  58 |                 }
+  59 |                 //} else {
+  60 |                 //    window.alert("Your username or password is wrong");
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:58:9:
+  56 |                     this.$store.commit('setUid', response.data.uid);
+  57 |                     console.log(this.$store.state.user);
+> 58 |                 }
+     |         ^
+  59 |                 //} else {
+  60 |                 //    window.alert("Your username or password is wrong");
+  61 |                 //}
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:59:1:
+  57 |                     console.log(this.$store.state.user);
+  58 |                 }
+> 59 |                 //} else {
+     | ^
+  60 |                 //    window.alert("Your username or password is wrong");
+  61 |                 //}
+  62 |             }
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:60:1:
+  58 |                 }
+  59 |                 //} else {
+> 60 |                 //    window.alert("Your username or password is wrong");
+     | ^
+  61 |                 //}
+  62 |             }
+  63 |         },
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:61:9:
+  59 |                 //} else {
+  60 |                 //    window.alert("Your username or password is wrong");
+> 61 |                 //}
+     |         ^
+  62 |             }
+  63 |         },
+  64 |         async setNewuser(){
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:62:1:
+  60 |                 //    window.alert("Your username or password is wrong");
+  61 |                 //}
+> 62 |             }
+     | ^
+  63 |         },
+  64 |         async setNewuser(){
+  65 |             this.$router.push('/register');
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:63:1:
+  61 |                 //}
+  62 |             }
+> 63 |         },
+     | ^
+  64 |         async setNewuser(){
+  65 |             this.$router.push('/register');
+  66 |         }
+
+
+warning: Replace `········async·setNewuser()` with `····async·setNewuser()·` (prettier/prettier) at src\components\Login.vue:64:1:
+  62 |             }
+  63 |         },
+> 64 |         async setNewuser(){
+     | ^
+  65 |             this.$router.push('/register');
+  66 |         }
+  67 |     }
+
+
+warning: Replace `············this.$router.push('/register'` with `······this.$router.push("/register"` (prettier/prettier) at src\components\Login.vue:65:1:
+  63 |         },
+  64 |         async setNewuser(){
+> 65 |             this.$router.push('/register');
+     | ^
+  66 |         }
+  67 |     }
+  68 | }
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:66:1:
+  64 |         async setNewuser(){
+  65 |             this.$router.push('/register');
+> 66 |         }
+     | ^
+  67 |     }
+  68 | }
+  69 | </script>
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:67:3:
+  65 |             this.$router.push('/register');
+  66 |         }
+> 67 |     }
+     |   ^
+  68 | }
+  69 | </script>
+  70 | 
+
+
+warning: Insert `;` (prettier/prettier) at src\components\Login.vue:68:2:
+  66 |         }
+  67 |     }
+> 68 | }
+     |  ^
+  69 | </script>
+  70 | 
+  71 | 
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:74:3:
+  72 | <style scoped>
+  73 | #login {
+> 74 |     font-family: monospace;
+     |   ^
+  75 |     text-align: center;
+  76 |     color:teal;
+  77 |     margin-top: 100px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:75:3:
+  73 | #login {
+  74 |     font-family: monospace;
+> 75 |     text-align: center;
+     |   ^
+  76 |     color:teal;
+  77 |     margin-top: 100px;
+  78 | }
+
+
+warning: Replace `····color:` with `··color:·` (prettier/prettier) at src\components\Login.vue:76:1:
+  74 |     font-family: monospace;
+  75 |     text-align: center;
+> 76 |     color:teal;
+     | ^
+  77 |     margin-top: 100px;
+  78 | }
+  79 | input {
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:77:1:
+  75 |     text-align: center;
+  76 |     color:teal;
+> 77 |     margin-top: 100px;
+     | ^
+  78 | }
+  79 | input {
+  80 |     background-repeat: no-repeat;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:80:1:
+  78 | }
+  79 | input {
+> 80 |     background-repeat: no-repeat;
+     | ^
+  81 |     width: 200px;
+  82 |     height: 40px;
+  83 |     border: 1px solid #e0dede;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:81:3:
+  79 | input {
+  80 |     background-repeat: no-repeat;
+> 81 |     width: 200px;
+     |   ^
+  82 |     height: 40px;
+  83 |     border: 1px solid #e0dede;
+  84 |     padding-left: 50px;
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:82:1:
+  80 |     background-repeat: no-repeat;
+  81 |     width: 200px;
+> 82 |     height: 40px;
+     | ^
+  83 |     border: 1px solid #e0dede;
+  84 |     padding-left: 50px;
+  85 | 	outline: none;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:83:1:
+  81 |     width: 200px;
+  82 |     height: 40px;
+> 83 |     border: 1px solid #e0dede;
+     | ^
+  84 |     padding-left: 50px;
+  85 | 	outline: none;
+  86 |     font-family: monospace;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:84:3:
+  82 |     height: 40px;
+  83 |     border: 1px solid #e0dede;
+> 84 |     padding-left: 50px;
+     |   ^
+  85 | 	outline: none;
+  86 |     font-family: monospace;
+  87 |     margin-top: 10px;
+
+
+warning: Replace `↹` with `··` (prettier/prettier) at src\components\Login.vue:85:1:
+  83 |     border: 1px solid #e0dede;
+  84 |     padding-left: 50px;
+> 85 | 	outline: none;
+     | ^
+  86 |     font-family: monospace;
+  87 |     margin-top: 10px;
+  88 | }
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:86:1:
+  84 |     padding-left: 50px;
+  85 | 	outline: none;
+> 86 |     font-family: monospace;
+     | ^
+  87 |     margin-top: 10px;
+  88 | }
+  89 | button {
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:87:1:
+  85 | 	outline: none;
+  86 |     font-family: monospace;
+> 87 |     margin-top: 10px;
+     | ^
+  88 | }
+  89 | button {
+  90 |     margin-top: 30px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:90:1:
+  88 | }
+  89 | button {
+> 90 |     margin-top: 30px;
+     | ^
+  91 |     margin-left: 20px;
+  92 |     margin-right: 20px;
+  93 |     text-align: center;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:91:3:
+  89 | button {
+  90 |     margin-top: 30px;
+> 91 |     margin-left: 20px;
+     |   ^
+  92 |     margin-right: 20px;
+  93 |     text-align: center;
+  94 |     text-decoration: #e0dede;
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:92:1:
+  90 |     margin-top: 30px;
+  91 |     margin-left: 20px;
+> 92 |     margin-right: 20px;
+     | ^
+  93 |     text-align: center;
+  94 |     text-decoration: #e0dede;
+  95 |     width: 100px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:93:1:
+  91 |     margin-left: 20px;
+  92 |     margin-right: 20px;
+> 93 |     text-align: center;
+     | ^
+  94 |     text-decoration: #e0dede;
+  95 |     width: 100px;
+  96 |     height: 50px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:94:3:
+  92 |     margin-right: 20px;
+  93 |     text-align: center;
+> 94 |     text-decoration: #e0dede;
+     |   ^
+  95 |     width: 100px;
+  96 |     height: 50px;
+  97 |     border-radius: 15px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:95:3:
+  93 |     text-align: center;
+  94 |     text-decoration: #e0dede;
+> 95 |     width: 100px;
+     |   ^
+  96 |     height: 50px;
+  97 |     border-radius: 15px;
+  98 |     font-family: monospace;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:96:1:
+  94 |     text-decoration: #e0dede;
+  95 |     width: 100px;
+> 96 |     height: 50px;
+     | ^
+  97 |     border-radius: 15px;
+  98 |     font-family: monospace;
+  99 | }
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:97:3:
+   95 |     width: 100px;
+   96 |     height: 50px;
+>  97 |     border-radius: 15px;
+      |   ^
+   98 |     font-family: monospace;
+   99 | }
+  100 | .text{
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:98:1:
+   96 |     height: 50px;
+   97 |     border-radius: 15px;
+>  98 |     font-family: monospace;
+      | ^
+   99 | }
+  100 | .text{
+  101 |     background-image: url(../assets/user_name.png);
+
+
+warning: Insert `·` (prettier/prettier) at src\components\Login.vue:100:6:
+   98 |     font-family: monospace;
+   99 | }
+> 100 | .text{
+      |      ^
+  101 |     background-image: url(../assets/user_name.png);
+  102 | }
+  103 | .pass {
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:101:1:
+   99 | }
+  100 | .text{
+> 101 |     background-image: url(../assets/user_name.png);
+      | ^
+  102 | }
+  103 | .pass {
+  104 |     background-image: url(../assets/user_password.png);
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:104:1:
+  102 | }
+  103 | .pass {
+> 104 |     background-image: url(../assets/user_password.png);
+      | ^
+  105 | }
+  106 | .login-confirm {
+  107 |     background-color: crimson;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:107:1:
+  105 | }
+  106 | .login-confirm {
+> 107 |     background-color: crimson;
+      | ^
+  108 | }
+  109 | </style>
+  110 | 
+
+
+71 warnings found.
+71 warnings potentially fixable with the `--fix` option.
+
+Module Warning (from ./node_modules/eslint-loader/index.js):
+warning: Replace `'./api'` with `"./api";` (prettier/prettier) at src\service\user.js:1:17:
+> 1 | import api from './api'
+    |                 ^
+  2 | 
+  3 | export default {
+  4 |     userLogin(username, pass){
+
+
+warning: Replace `··userLogin(username,·pass)` with `userLogin(username,·pass)·` (prettier/prettier) at src\service\user.js:4:3:
+  2 | 
+  3 | export default {
+> 4 |     userLogin(username, pass){
+    |   ^
+  5 |         return api().post('/user/login',{
+  6 |             username,
+  7 |             pass
+
+
+warning: Replace `········return·api().post('/user/login',` with `····return·api().post("/user/login",·` (prettier/prettier) at src\service\user.js:5:1:
+  3 | export default {
+  4 |     userLogin(username, pass){
+> 5 |         return api().post('/user/login',{
+    | ^
+  6 |             username,
+  7 |             pass
+  8 |         });
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\service\user.js:6:1:
+  4 |     userLogin(username, pass){
+  5 |         return api().post('/user/login',{
+> 6 |             username,
+    | ^
+  7 |             pass
+  8 |         });
+  9 |     }
+
+
+warning: Delete `······` (prettier/prettier) at src\service\user.js:7:1:
+   5 |         return api().post('/user/login',{
+   6 |             username,
+>  7 |             pass
+     | ^
+   8 |         });
+   9 |     }
+  10 | }
+
+
+warning: Delete `····` (prettier/prettier) at src\service\user.js:8:5:
+   6 |             username,
+   7 |             pass
+>  8 |         });
+     |     ^
+   9 |     }
+  10 | }
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\service\user.js:9:1:
+   7 |             pass
+   8 |         });
+>  9 |     }
+     | ^
+  10 | }
+
+
+warning: Insert `;␍⏎` (prettier/prettier) at src\service\user.js:10:2:
+   8 |         });
+   9 |     }
+> 10 | }
+     |  ^
+
+
+8 warnings found.
+8 warnings potentially fixable with the `--fix` option.
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning  in ./src/App.vue?vue&type=script&lang=js&
+
+"export 'default' (imported as 'mod') was not found in '-!../node_modules/cache-loader/dist/cjs.js??ref--12-0!../node_modules/babel-loader/lib/index.js!../node_modules/cache-loader/dist/cjs.js??ref--0-0!../node_modules/vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=script&lang=js&'
+
+                              
+  App running at:
+  - Local:   http://localhost:8080/ 
+  - Network: http://127.0.0.1/
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
+
+ WAIT  Compiling...21:32:32
+
+  0% compiling 10% building 0/0 modules 0 active 10% building 0/1 modules 1 active ...tem\vue-server\src\components\Login.vue                                            10% building 1/1 modules 0 active 10% building 1/2 modules 1 active ...&type=template&id=ef68022e&scoped=true& 10% building 1/3 modules 2 active ...ents\Login.vue?vue&type=script&lang=js& 10% building 1/4 modules 3 active ...dex=0&id=ef68022e&scoped=true&lang=css& 10% building 2/4 modules 2 active ...ents\Login.vue?vue&type=script&lang=js& 10% building 3/4 modules 1 active ...ents\Login.vue?vue&type=script&lang=js&                                            11% building 4/4 modules 0 active 70% building 4/4 modules 0 active           70% finish module graph 70% finish module graph FlagDependencyExportsPlugin                                         70% sealing 70% sealing WarnCaseSensitiveModulesPlugin        71% basic dependencies optimization       72% dependencies optimization 72% advanced dependencies optimization    73% after dependencies optimization                     70% chunk graph 71% after chunk graph 71% after chunk graph WebAssemblyModulesPlugin                                 73% optimizing 74% basic module optimization       74% module optimization 75% advanced module optimization    75% after module optimization  76% basic chunk optimization 76% basic chunk optimization EnsureChunkConditionsPlugin   76% basic chunk optimization RemoveParentModulesPlugin   76% basic chunk optimization RemoveEmptyChunksPlugin 76% basic chunk optimization MergeDuplicateChunksPlugin                                  76% chunk optimization 77% advanced chunk optimization 77% advanced chunk optimization SplitChunksPlugin 77% advanced chunk optimization RemoveEmptyChunksPlugin                            77% after chunk optimization 78% module and chunk tree optimization 78% after module and chunk tree optimization         79% basic chunk modules optimization       79% chunk modules optimization 80% advanced chunk modules optimization    80% after chunk modules optimization                  81% module reviving 81% module reviving RecordIdsPlugin       81% module order optimization 82% advanced module order optimization                  82% before module ids 82% before module ids NamedModulesPlugin                           83% module ids 83% module id optimization 84% module id optimization         84% chunk reviving 84% chunk reviving RecordIdsPlugin       85% chunk order optimization 85% chunk order optimization OccurrenceOrderChunkIdsPlugin                                       85% before chunk ids 85% before chunk ids NamedChunksPlugin              86% chunk id optimization 86% after chunk id optimization              87% record modules 87% record modules RecordIdsPlugin                  87% record chunks 87% record chunks RecordIdsPlugin                       88% hashing 88% content hashing 88% content hashing JavascriptModulesPlugin                         88% content hashing 88% content hashing JavascriptModulesPlugin                           89% after hashing 89% after hashing HotModuleReplacementPlugin                              89% record hash 90% module assets processing  90% chunk assets processing 91% additional chunk assets processing 91% additional chunk assets processing HotModuleReplacementPlugin                                                     91% recording 91% recording HotModuleReplacementPlugin          92% additional asset processing    92% chunk asset optimization 93% after chunk asset optimization 93% after chunk asset optimization SourceMapDevToolPlugin 93% after chunk asset optimization SourceMapDevToolPlugin about.js generate SourceMap   93% after chunk asset optimization SourceMapDevToolPlugin app.js generate SourceMap 93% after chunk asset optimization SourceMapDevToolPlugin app.1b9a8cfdf3c433868d30.hot-update.js generate SourceMap                                           93% after chunk asset optimization SourceMapDevToolPlugin resolve sources 93% after chunk asset optimization SourceMapDevToolPlugin app.js attach SourceMap 93% after chunk asset optimization SourceMapDevToolPlugin app.1b9a8cfdf3c433868d30.hot-update.js attach SourceMap                                                         93% after chunk asset optimization SourceMapDevToolPlugin                                    93% asset optimization 94% after asset optimization               94% after seal   95% emitting 95% emitting HtmlWebpackPlugin        95% emitting CopyPlugin      98% after emitting 98% after emitting CopyPlugin WARNING  Compiled with 2 warnings21:32:34
+
+Module Warning (from ./node_modules/eslint-loader/index.js):
+warning: Replace `··name:'login'` with `name:·"login"` (prettier/prettier) at src\components\Login.vue:23:3:
+  21 | //import UserService from '../service/user';
+  22 | export default {
+> 23 |     name:'login',
+     |   ^
+  24 |     data() {
+  25 |         return {
+  26 |             username: '',
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:24:1:
+  22 | export default {
+  23 |     name:'login',
+> 24 |     data() {
+     | ^
+  25 |         return {
+  26 |             username: '',
+  27 |             password: '',
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:25:1:
+  23 |     name:'login',
+  24 |     data() {
+> 25 |         return {
+     | ^
+  26 |             username: '',
+  27 |             password: '',
+  28 |         }
+
+
+warning: Replace `············username:·''` with `······username:·""` (prettier/prettier) at src\components\Login.vue:26:1:
+  24 |     data() {
+  25 |         return {
+> 26 |             username: '',
+     | ^
+  27 |             password: '',
+  28 |         }
+  29 |     },
+
+
+warning: Replace `······password:·'',` with `password:·""` (prettier/prettier) at src\components\Login.vue:27:7:
+  25 |         return {
+  26 |             username: '',
+> 27 |             password: '',
+     |       ^
+  28 |         }
+  29 |     },
+  30 |     components: {
+
+
+warning: Replace `········}` with `····};` (prettier/prettier) at src\components\Login.vue:28:1:
+  26 |             username: '',
+  27 |             password: '',
+> 28 |         }
+     | ^
+  29 |     },
+  30 |     components: {
+  31 |     },
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:29:1:
+  27 |             password: '',
+  28 |         }
+> 29 |     },
+     | ^
+  30 |     components: {
+  31 |     },
+  32 |     computed: {
+
+
+warning: Replace `··components:·{␍⏎····` with `components:·{` (prettier/prettier) at src\components\Login.vue:30:3:
+  28 |         }
+  29 |     },
+> 30 |     components: {
+     |   ^
+  31 |     },
+  32 |     computed: {
+  33 |         usernameInvalid() {
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:32:1:
+  30 |     components: {
+  31 |     },
+> 32 |     computed: {
+     | ^
+  33 |         usernameInvalid() {
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+  35 |         },
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:33:1:
+  31 |     },
+  32 |     computed: {
+> 33 |         usernameInvalid() {
+     | ^
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+  35 |         },
+  36 |     },
+
+
+warning: Replace `············return·!(this.username.match(/^[a-zA-Z0-9]+$/))` with `······return·!this.username.match(/^[a-zA-Z0-9]+$/)` (prettier/prettier) at src\components\Login.vue:34:1:
+  32 |     computed: {
+  33 |         usernameInvalid() {
+> 34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+     | ^
+  35 |         },
+  36 |     },
+  37 |     methods: {
+
+
+warning: Replace `········},` with `····}` (prettier/prettier) at src\components\Login.vue:35:1:
+  33 |         usernameInvalid() {
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+> 35 |         },
+     | ^
+  36 |     },
+  37 |     methods: {
+  38 |         async confirmLogin(){
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:36:1:
+  34 |             return !(this.username.match(/^[a-zA-Z0-9]+$/));
+  35 |         },
+> 36 |     },
+     | ^
+  37 |     methods: {
+  38 |         async confirmLogin(){
+  39 |             // TODO we can do a shake animation here.
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:37:1:
+  35 |         },
+  36 |     },
+> 37 |     methods: {
+     | ^
+  38 |         async confirmLogin(){
+  39 |             // TODO we can do a shake animation here.
+  40 |             if(this.usernameInvalid) {
+
+
+warning: Replace `········async·confirmLogin()` with `····async·confirmLogin()·` (prettier/prettier) at src\components\Login.vue:38:1:
+  36 |     },
+  37 |     methods: {
+> 38 |         async confirmLogin(){
+     | ^
+  39 |             // TODO we can do a shake animation here.
+  40 |             if(this.usernameInvalid) {
+  41 |                 alert('用户名格式不正确');
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:39:1:
+  37 |     methods: {
+  38 |         async confirmLogin(){
+> 39 |             // TODO we can do a shake animation here.
+     | ^
+  40 |             if(this.usernameInvalid) {
+  41 |                 alert('用户名格式不正确');
+  42 |                 return;
+
+
+warning: Replace `······if` with `if·` (prettier/prettier) at src\components\Login.vue:40:7:
+  38 |         async confirmLogin(){
+  39 |             // TODO we can do a shake animation here.
+> 40 |             if(this.usernameInvalid) {
+     |       ^
+  41 |                 alert('用户名格式不正确');
+  42 |                 return;
+  43 |             }
+
+
+warning: Replace `················alert('用户名格式不正确'` with `········alert("用户名格式不正确"` (prettier/prettier) at src\components\Login.vue:41:1:
+  39 |             // TODO we can do a shake animation here.
+  40 |             if(this.usernameInvalid) {
+> 41 |                 alert('用户名格式不正确');
+     | ^
+  42 |                 return;
+  43 |             }
+  44 |             this.username = this.username.trim();
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:42:1:
+  40 |             if(this.usernameInvalid) {
+  41 |                 alert('用户名格式不正确');
+> 42 |                 return;
+     | ^
+  43 |             }
+  44 |             this.username = this.username.trim();
+  45 |             this.password = this.password.trim();
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:43:1:
+  41 |                 alert('用户名格式不正确');
+  42 |                 return;
+> 43 |             }
+     | ^
+  44 |             this.username = this.username.trim();
+  45 |             this.password = this.password.trim();
+  46 |             if(this.username == '' || this.password == ''){
+
+
+warning: Delete `······` (prettier/prettier) at src\components\Login.vue:44:1:
+  42 |                 return;
+  43 |             }
+> 44 |             this.username = this.username.trim();
+     | ^
+  45 |             this.password = this.password.trim();
+  46 |             if(this.username == '' || this.password == ''){
+  47 |                 window.alert("Your user name or password can't be null!");
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:45:1:
+  43 |             }
+  44 |             this.username = this.username.trim();
+> 45 |             this.password = this.password.trim();
+     | ^
+  46 |             if(this.username == '' || this.password == ''){
+  47 |                 window.alert("Your user name or password can't be null!");
+  48 |             } else {
+
+
+warning: Replace `······if(this.username·==·''·||·this.password·==·'')` with `if·(this.username·==·""·||·this.password·==·"")·` (prettier/prettier) at src\components\Login.vue:46:7:
+  44 |             this.username = this.username.trim();
+  45 |             this.password = this.password.trim();
+> 46 |             if(this.username == '' || this.password == ''){
+     |       ^
+  47 |                 window.alert("Your user name or password can't be null!");
+  48 |             } else {
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:47:1:
+  45 |             this.password = this.password.trim();
+  46 |             if(this.username == '' || this.password == ''){
+> 47 |                 window.alert("Your user name or password can't be null!");
+     | ^
+  48 |             } else {
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+  50 |                 //if(response.data.success){
+
+
+warning: Delete `······` (prettier/prettier) at src\components\Login.vue:48:7:
+  46 |             if(this.username == '' || this.password == ''){
+  47 |                 window.alert("Your user name or password can't be null!");
+> 48 |             } else {
+     |       ^
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+  50 |                 //if(response.data.success){
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:49:1:
+  47 |                 window.alert("Your user name or password can't be null!");
+  48 |             } else {
+> 49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+     | ^
+  50 |                 //if(response.data.success){
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:50:9:
+  48 |             } else {
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+> 50 |                 //if(response.data.success){
+     |         ^
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+  53 |                 //const response = await UserService.userLogin(this.name, this.password);
+
+
+warning: Delete `············` (prettier/prettier) at src\components\Login.vue:51:9:
+  49 |                 //const response = await UserService.loginAndCookies(this.username, this.password);
+  50 |                 //if(response.data.success){
+> 51 |                     //this.$store.dispatch('setUid', response.data.uid);
+     |         ^
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+  53 |                 //const response = await UserService.userLogin(this.name, this.password);
+  54 |                 //if(response.data.success){
+
+
+warning: Delete `············` (prettier/prettier) at src\components\Login.vue:52:9:
+  50 |                 //if(response.data.success){
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+> 52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+     |         ^
+  53 |                 //const response = await UserService.userLogin(this.name, this.password);
+  54 |                 //if(response.data.success){
+  55 |                     //console.log(this.$store.state.user)
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:53:1:
+  51 |                     //this.$store.dispatch('setUid', response.data.uid);
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+> 53 |                 //const response = await UserService.userLogin(this.name, this.password);
+     | ^
+  54 |                 //if(response.data.success){
+  55 |                     //console.log(this.$store.state.user)
+  56 |                     //this.$store.commit('setUid', response.data.uid);
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:54:9:
+  52 |                     //this.$store.dispatch('setUserCookies', response.data.cookies);
+  53 |                 //const response = await UserService.userLogin(this.name, this.password);
+> 54 |                 //if(response.data.success){
+     |         ^
+  55 |                     //console.log(this.$store.state.user)
+  56 |                     //this.$store.commit('setUid', response.data.uid);
+  57 |                     //console.log(this.$store.state.user);
+
+
+warning: Delete `············` (prettier/prettier) at src\components\Login.vue:55:1:
+  53 |                 //const response = await UserService.userLogin(this.name, this.password);
+  54 |                 //if(response.data.success){
+> 55 |                     //console.log(this.$store.state.user)
+     | ^
+  56 |                     //this.$store.commit('setUid', response.data.uid);
+  57 |                     //console.log(this.$store.state.user);
+  58 |                 //}
+
+
+warning: Delete `············` (prettier/prettier) at src\components\Login.vue:56:1:
+  54 |                 //if(response.data.success){
+  55 |                     //console.log(this.$store.state.user)
+> 56 |                     //this.$store.commit('setUid', response.data.uid);
+     | ^
+  57 |                     //console.log(this.$store.state.user);
+  58 |                 //}
+  59 |                 //} else {
+
+
+warning: Delete `············` (prettier/prettier) at src\components\Login.vue:57:1:
+  55 |                     //console.log(this.$store.state.user)
+  56 |                     //this.$store.commit('setUid', response.data.uid);
+> 57 |                     //console.log(this.$store.state.user);
+     | ^
+  58 |                 //}
+  59 |                 //} else {
+  60 |                 //    window.alert("Your username or password is wrong");
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:58:1:
+  56 |                     //this.$store.commit('setUid', response.data.uid);
+  57 |                     //console.log(this.$store.state.user);
+> 58 |                 //}
+     | ^
+  59 |                 //} else {
+  60 |                 //    window.alert("Your username or password is wrong");
+  61 |                 //}
+
+
+warning: Replace `················` with `········` (prettier/prettier) at src\components\Login.vue:59:1:
+  57 |                     //console.log(this.$store.state.user);
+  58 |                 //}
+> 59 |                 //} else {
+     | ^
+  60 |                 //    window.alert("Your username or password is wrong");
+  61 |                 //}
+  62 |             }
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:60:1:
+  58 |                 //}
+  59 |                 //} else {
+> 60 |                 //    window.alert("Your username or password is wrong");
+     | ^
+  61 |                 //}
+  62 |             }
+  63 |         },
+
+
+warning: Delete `········` (prettier/prettier) at src\components\Login.vue:61:9:
+  59 |                 //} else {
+  60 |                 //    window.alert("Your username or password is wrong");
+> 61 |                 //}
+     |         ^
+  62 |             }
+  63 |         },
+  64 |         async setNewuser(){
+
+
+warning: Replace `············` with `······` (prettier/prettier) at src\components\Login.vue:62:1:
+  60 |                 //    window.alert("Your username or password is wrong");
+  61 |                 //}
+> 62 |             }
+     | ^
+  63 |         },
+  64 |         async setNewuser(){
+  65 |             this.$router.push('/register');
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:63:1:
+  61 |                 //}
+  62 |             }
+> 63 |         },
+     | ^
+  64 |         async setNewuser(){
+  65 |             this.$router.push('/register');
+  66 |         }
+
+
+warning: Replace `········async·setNewuser()` with `····async·setNewuser()·` (prettier/prettier) at src\components\Login.vue:64:1:
+  62 |             }
+  63 |         },
+> 64 |         async setNewuser(){
+     | ^
+  65 |             this.$router.push('/register');
+  66 |         }
+  67 |     }
+
+
+warning: Replace `······this.$router.push('/register'` with `this.$router.push("/register"` (prettier/prettier) at src\components\Login.vue:65:7:
+  63 |         },
+  64 |         async setNewuser(){
+> 65 |             this.$router.push('/register');
+     |       ^
+  66 |         }
+  67 |     }
+  68 | }
+
+
+warning: Replace `········` with `····` (prettier/prettier) at src\components\Login.vue:66:1:
+  64 |         async setNewuser(){
+  65 |             this.$router.push('/register');
+> 66 |         }
+     | ^
+  67 |     }
+  68 | }
+  69 | </script>
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:67:1:
+  65 |             this.$router.push('/register');
+  66 |         }
+> 67 |     }
+     | ^
+  68 | }
+  69 | </script>
+  70 | 
+
+
+warning: Insert `;` (prettier/prettier) at src\components\Login.vue:68:2:
+  66 |         }
+  67 |     }
+> 68 | }
+     |  ^
+  69 | </script>
+  70 | 
+  71 | 
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:74:1:
+  72 | <style scoped>
+  73 | #login {
+> 74 |     font-family: monospace;
+     | ^
+  75 |     text-align: center;
+  76 |     color:teal;
+  77 |     margin-top: 100px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:75:3:
+  73 | #login {
+  74 |     font-family: monospace;
+> 75 |     text-align: center;
+     |   ^
+  76 |     color:teal;
+  77 |     margin-top: 100px;
+  78 | }
+
+
+warning: Replace `····color:` with `··color:·` (prettier/prettier) at src\components\Login.vue:76:1:
+  74 |     font-family: monospace;
+  75 |     text-align: center;
+> 76 |     color:teal;
+     | ^
+  77 |     margin-top: 100px;
+  78 | }
+  79 | input {
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:77:1:
+  75 |     text-align: center;
+  76 |     color:teal;
+> 77 |     margin-top: 100px;
+     | ^
+  78 | }
+  79 | input {
+  80 |     background-repeat: no-repeat;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:80:3:
+  78 | }
+  79 | input {
+> 80 |     background-repeat: no-repeat;
+     |   ^
+  81 |     width: 200px;
+  82 |     height: 40px;
+  83 |     border: 1px solid #e0dede;
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:81:1:
+  79 | input {
+  80 |     background-repeat: no-repeat;
+> 81 |     width: 200px;
+     | ^
+  82 |     height: 40px;
+  83 |     border: 1px solid #e0dede;
+  84 |     padding-left: 50px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:82:1:
+  80 |     background-repeat: no-repeat;
+  81 |     width: 200px;
+> 82 |     height: 40px;
+     | ^
+  83 |     border: 1px solid #e0dede;
+  84 |     padding-left: 50px;
+  85 | 	outline: none;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:83:3:
+  81 |     width: 200px;
+  82 |     height: 40px;
+> 83 |     border: 1px solid #e0dede;
+     |   ^
+  84 |     padding-left: 50px;
+  85 | 	outline: none;
+  86 |     font-family: monospace;
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:84:1:
+  82 |     height: 40px;
+  83 |     border: 1px solid #e0dede;
+> 84 |     padding-left: 50px;
+     | ^
+  85 | 	outline: none;
+  86 |     font-family: monospace;
+  87 |     margin-top: 10px;
+
+
+warning: Replace `↹` with `··` (prettier/prettier) at src\components\Login.vue:85:1:
+  83 |     border: 1px solid #e0dede;
+  84 |     padding-left: 50px;
+> 85 | 	outline: none;
+     | ^
+  86 |     font-family: monospace;
+  87 |     margin-top: 10px;
+  88 | }
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:86:1:
+  84 |     padding-left: 50px;
+  85 | 	outline: none;
+> 86 |     font-family: monospace;
+     | ^
+  87 |     margin-top: 10px;
+  88 | }
+  89 | button {
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:87:3:
+  85 | 	outline: none;
+  86 |     font-family: monospace;
+> 87 |     margin-top: 10px;
+     |   ^
+  88 | }
+  89 | button {
+  90 |     margin-top: 30px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:90:3:
+  88 | }
+  89 | button {
+> 90 |     margin-top: 30px;
+     |   ^
+  91 |     margin-left: 20px;
+  92 |     margin-right: 20px;
+  93 |     text-align: center;
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:91:1:
+  89 | button {
+  90 |     margin-top: 30px;
+> 91 |     margin-left: 20px;
+     | ^
+  92 |     margin-right: 20px;
+  93 |     text-align: center;
+  94 |     text-decoration: #e0dede;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:92:1:
+  90 |     margin-top: 30px;
+  91 |     margin-left: 20px;
+> 92 |     margin-right: 20px;
+     | ^
+  93 |     text-align: center;
+  94 |     text-decoration: #e0dede;
+  95 |     width: 100px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:93:3:
+  91 |     margin-left: 20px;
+  92 |     margin-right: 20px;
+> 93 |     text-align: center;
+     |   ^
+  94 |     text-decoration: #e0dede;
+  95 |     width: 100px;
+  96 |     height: 50px;
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:94:1:
+  92 |     margin-right: 20px;
+  93 |     text-align: center;
+> 94 |     text-decoration: #e0dede;
+     | ^
+  95 |     width: 100px;
+  96 |     height: 50px;
+  97 |     border-radius: 15px;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:95:3:
+  93 |     text-align: center;
+  94 |     text-decoration: #e0dede;
+> 95 |     width: 100px;
+     |   ^
+  96 |     height: 50px;
+  97 |     border-radius: 15px;
+  98 |     font-family: monospace;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:96:1:
+  94 |     text-decoration: #e0dede;
+  95 |     width: 100px;
+> 96 |     height: 50px;
+     | ^
+  97 |     border-radius: 15px;
+  98 |     font-family: monospace;
+  99 | }
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:97:3:
+   95 |     width: 100px;
+   96 |     height: 50px;
+>  97 |     border-radius: 15px;
+      |   ^
+   98 |     font-family: monospace;
+   99 | }
+  100 | .text{
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:98:1:
+   96 |     height: 50px;
+   97 |     border-radius: 15px;
+>  98 |     font-family: monospace;
+      | ^
+   99 | }
+  100 | .text{
+  101 |     background-image: url(../assets/user_name.png);
+
+
+warning: Insert `·` (prettier/prettier) at src\components\Login.vue:100:6:
+   98 |     font-family: monospace;
+   99 | }
+> 100 | .text{
+      |      ^
+  101 |     background-image: url(../assets/user_name.png);
+  102 | }
+  103 | .pass {
+
+
+warning: Replace `····` with `··` (prettier/prettier) at src\components\Login.vue:101:1:
+   99 | }
+  100 | .text{
+> 101 |     background-image: url(../assets/user_name.png);
+      | ^
+  102 | }
+  103 | .pass {
+  104 |     background-image: url(../assets/user_password.png);
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:104:1:
+  102 | }
+  103 | .pass {
+> 104 |     background-image: url(../assets/user_password.png);
+      | ^
+  105 | }
+  106 | .login-confirm {
+  107 |     background-color: crimson;
+
+
+warning: Delete `··` (prettier/prettier) at src\components\Login.vue:107:1:
+  105 | }
+  106 | .login-confirm {
+> 107 |     background-color: crimson;
+      | ^
+  108 | }
+  109 | </style>
+  110 | 
+
+
+70 warnings found.
+70 warnings potentially fixable with the `--fix` option.
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning  in ./src/App.vue?vue&type=script&lang=js&
+
+"export 'default' (imported as 'mod') was not found in '-!../node_modules/cache-loader/dist/cjs.js??ref--12-0!../node_modules/babel-loader/lib/index.js!../node_modules/cache-loader/dist/cjs.js??ref--0-0!../node_modules/vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=script&lang=js&'
+
+                              
+  App running at:
+  - Local:   http://localhost:8080/ 
+  - Network: http://127.0.0.1/
+

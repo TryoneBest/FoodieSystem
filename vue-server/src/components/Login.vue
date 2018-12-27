@@ -18,7 +18,7 @@
 </template>
 
 <script>
-//import UserService from '../services/user';
+import UserService from '../service/user';
 export default {
     name:'login',
     data() {
@@ -44,13 +44,18 @@ export default {
             this.username = this.username.trim();
             this.password = this.password.trim();
             if(this.username == '' || this.password == ''){
-                window.alert("Your user name or password is fault!");
+                window.alert("Your user name or password can't be null!");
             } else {
                 //const response = await UserService.loginAndCookies(this.username, this.password);
                 //if(response.data.success){
                     //this.$store.dispatch('setUid', response.data.uid);
                     //this.$store.dispatch('setUserCookies', response.data.cookies);
-                    window.alert("success");
+                const response = await UserService.userLogin(this.name, this.password);
+                if(response.data.success){
+                    console.log(this.$store.state.user)
+                    this.$store.commit('setUid', response.data.uid);
+                    console.log(this.$store.state.user);
+                }
                 //} else {
                 //    window.alert("Your username or password is wrong");
                 //}

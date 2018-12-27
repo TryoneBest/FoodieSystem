@@ -100,7 +100,8 @@ export default {
             //var mapScreenMarkers = that.map.getAllOverlays('Marker');
             AMap.event.addListener(placeSearch, "markerClick", function(e){
               //that.markeraddress = e.data.address;
-              //console.log(e.data.cityname);
+              console.log(e.data.location.lng);
+              console.log(e.data.location.lat);
               //that.markerlng = e.data.location.lng;
               //that.markerlat = e.data.location.lat;
               //that.markername = e.data.name;
@@ -133,7 +134,7 @@ export default {
               var infoWindow = new AMap.InfoWindow({
                 offset: new AMap.Pixel(0,-30),
                 content: infocontent.$el,
-                position: [that.markerlng, that.markerlat]
+                position: [e.data.location.lng,e.data.location.lat]
               });
               infoWindow.open(that.map);
               

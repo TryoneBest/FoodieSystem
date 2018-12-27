@@ -7,9 +7,9 @@
     </header>
     <nav class="main-nav">
       <div class="container">
+        <router-link to="/">Home</router-link> |
         <router-link to="/around">Around</router-link> |
         <router-link to="/restaurant">Restaurant</router-link> |
-        <router-link to="/">Home</router-link> |
         <router-link to="/login">Login</router-link>
       </div>
     </nav>

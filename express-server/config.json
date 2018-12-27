@@ -1,0 +1,23 @@
+{
+    "mongodb": {
+		"auth": false,
+		"username": null,
+		"password": null,
+		"host": "localhost",
+		"port": 27017,
+		"db": "foodie_system"
+	},
+	"mysql": {
+		"username": "FSuser",
+		"password": "FoodieSystem",
+		"host": "localhost",
+		"port": 3306,
+		"db": "foodie_system",
+		"maxConnection": 100,
+		"debugPool": false
+	},
+	"security": {
+		"cookies": true,
+		"privilege": true
+	}
+}

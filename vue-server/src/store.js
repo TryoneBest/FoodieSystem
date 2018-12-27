@@ -5,15 +5,14 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    UserStatus: false
+    user: null
   },
   mutations: {
-    UserStatusReversion: state => {
-      if(state.UserStatus === false){
-        state.UserStatus = true;
-      }else{
-        state.UserStatus = false;
-      }
+    setUser: (state, uid) => {
+      state.user = uid;
+    },
+    logoutUser: state => {
+      state.user = null;
     }
   },
   actions: {}
