@@ -5,7 +5,7 @@ const conf = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'ut
 module.exports = {
 	devServer: {
 		host: '0.0.0.0',
-		port: 8080,
+		hot: true,
 		disableHostCheck: true,
 		public: conf.webServer.host
 	},

@@ -23,6 +23,12 @@
 </template>
 
 <script>
+export default {
+  name: 'app',
+  data(){
+    return this.$store.state.user;
+  }
+}
 </script>
 
 

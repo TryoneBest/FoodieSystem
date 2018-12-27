@@ -29,6 +29,12 @@ export default {
     },
     components: {
     },
+    mounted(){
+        if(this.$store.state.user != null){
+            window.alert('you have login already!');
+            this.$router.push('/');
+        }
+    },
     computed: {
         usernameInvalid() {
             return !(this.username.match(/^[a-zA-Z0-9]+$/));
@@ -46,19 +52,12 @@ export default {
             if(this.username == '' || this.password == ''){
                 window.alert("Your user name or password can't be null!");
             } else {
-                //const response = await UserService.loginAndCookies(this.username, this.password);
-                //if(response.data.success){
-                    //this.$store.dispatch('setUid', response.data.uid);
-                    //this.$store.dispatch('setUserCookies', response.data.cookies);
-                const response = await UserService.userLogin(this.name, this.password);
+                const response = await UserService.userLogin(this.username, this.password);
                 if(response.data.success){
-                    console.log(this.$store.state.user)
-                    this.$store.commit('setUid', response.data.uid);
-                    console.log(this.$store.state.user);
+                    this.$store.commit('setUser', response.data.uid);
+                    window.alert('login success!');
+                    this.$router.push('/');
                 }
-                //} else {
-                //    window.alert("Your username or password is wrong");
-                //}
             }
         },
         async setNewuser(){

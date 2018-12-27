@@ -6,3 +6,51 @@
 [33m[nodemon] to restart at any time, enter `rs`[39m
 [33m[nodemon] watching: *.*[39m
 [32m[nodemon] starting `node src/app.js`[39m
+[0mOPTIONS /user/login [32m204 [0m2.891 ms - 0[0m
+[Info][Query] call user_login(NULL, '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m63.785 ms - 17[0m
+[0mOPTIONS /user/login [32m204 [0m0.326 ms - 0[0m
+[Info][Query] call user_login(NULL, '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m9.924 ms - 17[0m
+[0mOPTIONS /user/login [32m204 [0m0.102 ms - 0[0m
+[Info][Query] call user_login(NULL, '1234567', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m1.761 ms - 17[0m
+[0mOPTIONS /user/login [32m204 [0m0.076 ms - 0[0m
+[Info][Query] call user_login(NULL, '1234567', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m15.609 ms - 17[0m
+[0mOPTIONS /user/login [32m204 [0m0.107 ms - 0[0m
+[Info][Query] call user_login(NULL, '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.018 ms - 17[0m
+[0mOPTIONS /user/login [32m204 [0m0.127 ms - 0[0m
+[Info][Query] call user_login(NULL, '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.623 ms - 17[0m
+[0mOPTIONS /user/login [32m204 [0m0.129 ms - 0[0m
+[Info][Query] call user_login('cat', '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.144 ms - 24[0m
+[0mOPTIONS /user/login [32m204 [0m0.104 ms - 0[0m
+[Info][Query] call user_login('cat', '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m44.375 ms - 24[0m
+[0mOPTIONS /user/login [32m204 [0m0.127 ms - 0[0m
+[Info][Query] call user_login('cat', '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.193 ms - 24[0m
+[0mOPTIONS /user/login [32m204 [0m0.104 ms - 0[0m
+[Info][Query] call user_login('cat', '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.419 ms - 24[0m
+[0mOPTIONS /user/login [32m204 [0m0.095 ms - 0[0m
+[Info][Query] call user_login('cat', '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.067 ms - 24[0m
+[0mOPTIONS /user/login [32m204 [0m0.091 ms - 0[0m
+[Info][Query] call user_login('cat', '123456', @uid);
+[Info][Query] select @uid;
+[0mPOST /user/login [32m200 [0m2.081 ms - 24[0m
