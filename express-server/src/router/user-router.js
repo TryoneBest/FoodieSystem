@@ -10,11 +10,7 @@ router.post('/login',(request,response) => {
     user.userLogin(request.body.username, request.body.pass).then(data => {
         if(data){
             try{
-                var result = {
-                    uid: data,
-                    success: true
-                };
-                response.send(result);
+                response.send(data);
             } catch(err){
                 console.error('[Error][response] user-router response error!' + err);
                 throw(err);
@@ -25,6 +21,14 @@ router.post('/login',(request,response) => {
     }).catch(err => {
         response.send({ success : false });
     });
+});
+
+router.post('/register',(request,response) => {
+    user.userRegister(request.body.username, request.body.pass).then(data => {
+        response.send(data);
+    }).catch(err => {
+        response.send({success : false});
+    })
 });
 
 module.exports = router;

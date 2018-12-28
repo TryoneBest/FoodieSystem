@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="main-header">
-      <div class="container">
+      <div class="header">
         <h1>FoodieSystem</h1>
       </div>
     </header>
@@ -42,6 +42,9 @@ export default {
 }
 body {
   margin: 0;
+}
+.header{
+  height: 50px;
 }
 .container {
   max-width: 960px;

@@ -1,6 +1,6 @@
 <template>
     <div id="login">
-        <h1>Welcome to our forum!</h1>
+        <h1>Welcome to our app!</h1>
         <div class="login-model">
             <div class="user-name">
                 <input class="text" type="text" placeholder="Username" v-model="username">
@@ -10,7 +10,7 @@
                 <input class="pass" type="password" placeholder="Password" v-model="password">
             </div>
             <div class="buttons">
-                <button class="login-confirm" @click="confirmLogin">Login</button>
+                <button class="confirm" @click="confirmLogin">Login</button>
                 <button class="register" @click="setNewuser">Register</button>
             </div>
         </div>
@@ -102,7 +102,7 @@ button {
 .pass {
     background-image: url(../assets/user_password.png);
 }
-.login-confirm {
+.confirm {
     background-color: crimson;
 }
 </style>

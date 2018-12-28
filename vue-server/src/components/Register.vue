@@ -15,14 +15,6 @@
                 <p v-if="table.repeatPass.length > 0 && passNotMatch">{{ warning.repeatPass }}</p>
             </div>
             <div>
-                <input class="noimage" placeholder="nickname" v-model="table.nickname">
-                <p v-if="table.nickname.length > 0 && nicknameInvalid">{{ warning.nickname }}</p>
-            </div>
-            <div>
-                <input class="noimage" placeholder="email address" v-model="table.email">
-                <p v-if="table.email.length > 0 && emailInvalid">{{ warning.email }}</p>
-            </div>
-            <div>
                 <p v-if="loading">载入中... </p>
             </div>
             <button class="commit" @click="commitClick">Commit</button>
@@ -31,7 +23,7 @@
 </template>
 
 <script>
-//import UserService from '../services/user';
+import UserService from '../service/user';
 // TODO check username and email availability before a commit.
 export default {
     name: "register",
@@ -40,23 +32,17 @@ export default {
             table: {
                 username: '',
                 pass: '',
-                repeatPass: '',
-                nickname: '',
-                email: ''
+                repeatPass: ''
             },
             word: {
                 username: '用户名',
                 pass: '密码',
                 repeatPass: '重复密码',
-                nickname: '昵称',
-                email: '邮箱'
             },
             warning: {
                 username: '用户名只能由大小写字母和数字组成。',
                 pass: '密码只能由大小写字母和数字和六个特殊字符(%$-_=&)组成，密码长度在6到20之间。',
                 repeatPass: '两组密码不相符。',
-                email: '请输入正确的邮箱。',
-                nickname: '昵称长度在3到20之间。'
             },
             loading: false,
         }
@@ -70,12 +56,6 @@ export default {
         },
         passNotMatch() {
             return this.table.pass != this.table.repeatPass;
-        },
-        emailInvalid() {
-            return !(this.table.email.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/));
-        },
-        nicknameInvalid() {
-            return !(this.table.nickname.match(/^.{3,20}$/));
         }
     },
     methods: {
@@ -91,7 +71,7 @@ export default {
                     alertText += this.word[keyName] + '不能为空。\n';
                 }
             }
-            if(this.usernameInvalid || this.passNotMatch || this.passInvalid || this.emailInvalid || this.nicknameInvalid) {
+            if(this.usernameInvalid || this.passNotMatch || this.passInvalid ) {
                 alertText += '表格填写有错误，不能提交。\n';
             }
             if(alertText) {
@@ -99,19 +79,19 @@ export default {
                 return;
             }
             this.loading = true;
-            //var res = await UserService.userRegister(this.table.username, this.table.pass, this.table.nickname, this.table.email);
+            var res = await UserService.userRegister(this.table.username, this.table.pass);
             this.loading = false;
-            /*if(res.data && res.data.success) {
+            if(res.data && res.data.success) {
                 alert('注册成功');
-                this.$store.dispatch('setUid', res.data.uid);
-                this.$store.dispatch('setUserCookies', res.data.cookies);
+                this.$store.commit('setUser', res.data.uid);
+                this.$router.push('/');
             } else {
                 if(res.data.msg) {
                     alert('注册失败\n' + res.data.msg);
                 } else {
                     alert('注册失败');
                 }
-            }*/
+            }
         }
     }
 }

@@ -6,5 +6,11 @@ export default {
             username,
             pass
         });
+    },
+    userRegister(username, pass){
+        return api().post('/user/register',{
+            username,
+            pass
+        })
     }
 }

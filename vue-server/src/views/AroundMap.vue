@@ -100,8 +100,9 @@ export default {
             //var mapScreenMarkers = that.map.getAllOverlays('Marker');
             AMap.event.addListener(placeSearch, "markerClick", function(e){
               //that.markeraddress = e.data.address;
-              console.log(e.data.location.lng);
-              console.log(e.data.location.lat);
+              //console.log(e.data.location.lng);
+              //console.log(e.data.location.lat);
+              //console.log(e.data.tel);
               //that.markerlng = e.data.location.lng;
               //that.markerlat = e.data.location.lat;
               //that.markername = e.data.name;
@@ -111,7 +112,8 @@ export default {
               "<p >" + e.data.name + "</p>" + 
               "<p >" + e.data.address + "</p>" +
               "<p >" + e.data.tel + "</p>" + 
-              "<button @click='getRoute'>test</button>" + 
+              "<input value='Get Details' type='button' @click='getRoute' class='list-button'>" + 
+              "<input value='Add Restaurant' type='button' @click='gotoadd' class='list-button'>" +
               "</div>";
               var Mycontent = Vue.extend({
                 template: Content,
@@ -121,12 +123,24 @@ export default {
                       name: 'restaurant',
                       params: {
                         name: e.data.name, 
-                        address: e.data.name, 
-                        tel: e.data.name, 
+                        address: e.data.address, 
+                        city: e.data.cityname,
                         lng: e.data.location.lng,
                         lat: e.data.location.lat
                       }
-                    })
+                    });
+                  },
+                  gotoadd(){
+                    that.$router.push({
+                      name: 'addres',
+                      params: {
+                        name: e.data.name, 
+                        address: e.data.address, 
+                        city: e.data.cityname,
+                        lng: e.data.location.lng,
+                        lat: e.data.location.lat
+                      }
+                    });
                   }
                 }
               });
@@ -168,9 +182,15 @@ export default {
   border-radius: 15px;
   z-index: 9999;
 }
-.lise-button {
-  border: none;
-}
+.list-button {
+  background-color: rgb(37, 107, 238);
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  border-radius: 15px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  }
 .pannel {
   position: fixed;
   background-color: white;
