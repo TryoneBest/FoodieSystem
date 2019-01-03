@@ -39,4 +39,16 @@ router.post('/addres', async (req,res) => {
     }
 });
 
+router.post('/menu/:rid',async (req,res) => {
+    try {
+        var data = await restaurant.getMenu(req.params.rid);
+        res.send({
+            success: true,
+            data: data
+        })
+    } catch(err) {
+        res.send({success :false});
+    }
+})
+
 module.exports = router;

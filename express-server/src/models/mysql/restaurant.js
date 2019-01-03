@@ -53,8 +53,24 @@ async function addRestaurant(name, address, city, lng, lat){
     }
 }
 
+async function getMenu(rid){
+    var con;
+    try {
+        con = await pool.aGet();
+        var cmd = "select * from food where rid=" + con.escape(rid) + ";";
+        var res = await pool.aQuery(con,cmd);
+        return res;
+    } catch(err) {
+        console.log('[Error] get menu error');
+        throw err;
+    } finally {
+        pool.release(con);
+    }
+}
+
 module.exports = {
     getReslist,
     searchRestaurant,
-    addRestaurant
+    addRestaurant,
+    getMenu
 }

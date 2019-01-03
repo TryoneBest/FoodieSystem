@@ -13,5 +13,8 @@ export default {
     },
     addRestaurant(params){
         return api().post('/restaurant/addres', params);
+    },
+    getMenu(rid){
+        return api().post('/restaurant/menu/' + rid)
     }
 }

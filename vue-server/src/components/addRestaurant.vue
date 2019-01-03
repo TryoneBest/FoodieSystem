@@ -47,9 +47,18 @@ export default {
             };
         },
         async confirmAdd(){
-            const res = await RestaurantService.addRestaurant(this.restaurant);
-            if(res.data.success){
-                window.alert("add restaurant success.rid: " + res.data.data);
+            const response = await RestaurantService.searchRestaurant(this.restaurant.name, this.restaurant.lng, this.restaurant.lat);
+            if(response.data.data.length == 0){
+                const res = await RestaurantService.addRestaurant(this.restaurant);
+                if(res.data.success){
+                    window.alert("add restaurant success. rid: " + res.data.data);
+                    this.$router.push('/restaurant');
+                } else{
+                    window.alert("add restaurant failed");
+                }
+            } else{
+                window.alert('this restaurant has existed!');
+                this.$router.push('/around');
             }
         }
     }

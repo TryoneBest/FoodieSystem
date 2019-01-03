@@ -26,7 +26,7 @@
                         <td>{{ Restaurant.lng }}</td>
                         <td>{{ Restaurant.lat }}</td>
                         <td class="res-action-cell">
-                            <router-link :to="{ name: '', params:{id : Restaurant.restaurant_id}}">check</router-link>
+                            <router-link :to="{ name: 'restaurantCheck', params:{id: Restaurant.restaurant_id,name : Restaurant.restaurant_name,address: Restaurant.address}}">check</router-link>
                         </td>
                     </tr>
                 </tbody>

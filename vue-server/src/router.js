@@ -5,6 +5,9 @@ import Login from "./components/Login.vue";
 import Register from "./components/Register.vue";
 import Restaurant from "./components/RestaurantList.vue";
 import addRes from "./components/addRestaurant.vue";
+import RestaurantCheck from "./components/RestaurantCheck.vue"
+import Menu from "./components/Menu.vue"
+import Cookbook from "./components/Cookbook.vue"
 
 Vue.use(Router);
 
@@ -33,9 +36,24 @@ export default new Router({
       component: Restaurant
     },
     {
+      path: "/resraurant/check",
+      name: "restaurantCheck",
+      component: RestaurantCheck
+    },
+    {
+      path: "/restaurant/menu",
+      name: "restaurantMenu",
+      component: Menu
+    },
+    {
       path: "/restaurant/add",
       name: "addres",
       component: addRes
+    },
+    {
+      path: "/cookbook",
+      name: "cookbook",
+      component: Cookbook
     },
     {
       path: "/",
