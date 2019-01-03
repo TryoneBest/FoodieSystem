@@ -15,4 +15,13 @@ router.get('/:rid',async (req,res) => {
     }
 });
 
+router.post('/add',async(req,res) => {
+    try {
+        var data = await comment.addComment(req.body.uid, req.body.rid, req.body.title, req.body.content);
+        res.send(data);
+    } catch(err){
+        res.send({success:false});
+    }
+})
+
 module.exports = router;

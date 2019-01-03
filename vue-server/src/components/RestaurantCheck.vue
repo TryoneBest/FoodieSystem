@@ -3,17 +3,27 @@
         <div class="restaurantContent">
             <h1>{{restaurant.name}}</h1>
             <h2>{{restaurant.address}}</h2>
-            <input type="button" value="Menu" @click="gotoMenu" class="menuclick">
-            <input type="button" value="Add Comment" @click="addComment" class="menuclick">
+            <input type="button" value="Menu" @click="gotoMenu" class="click">
+            <input type="button" value="Add Comment" @click="addComment" class="click">
         </div>
         <div v-if="hascomment" class="comment">
             <table>
+                <thead>
+                    <tr>
+                        <td width="100">id</td>
+                        <td width="100">title</td>
+                        <td width="500">comment</td>
+                        <td width="200">datetime</td>
+                        <td width="100">username</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="comment in comments" :key="comment.content_id">
-                        <td width="100">{{ comment.cid}}</td>
-                        <td width="500">{{ comment.comment}}</td>
-                        <td width="200">{{ comment.datetime }}</td>
-                        <td width="100">{{ comment.uname}}</td>
+                        <td >{{ comment.cid}}</td>
+                        <td >{{ comment.title}}</td>
+                        <td >{{ comment.comment}}</td>
+                        <td >{{ comment.datetime }}</td>
+                        <td >{{ comment.uname}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -54,10 +64,15 @@ export default {
             }
         },
         gotoMenu(){
-            this.$router.push({name:"restaurantMenu",params:{id: this.restaurant.rid, name: this.restaurant.name, address: this.restaurant.address}})
+            this.$router.push({name:"restaurantMenu",params:{id: this.restaurant.rid, name: this.restaurant.name, address: this.restaurant.address}});
         },
         addComment(){
-            
+            if(this.$store.state.user != null){
+                this.$router.push({name:"addComment", params:{id: this.restaurant.rid, name: this.restaurant.name, address: this.restaurant.address}});
+            } else {
+                window.alert('you must login at first');
+                this.$router.push("/login");
+            }
         }
     }
 }
@@ -68,7 +83,7 @@ export default {
     height: 170px;
     text-align: center;
 }
-.menuclick {
+.click {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -79,7 +94,7 @@ export default {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
-.menuclick:hover{
+.click:hover{
     background-color: rgb(47, 110, 49)
 }
 table {

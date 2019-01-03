@@ -8,6 +8,7 @@ import addRes from "./components/addRestaurant.vue";
 import RestaurantCheck from "./components/RestaurantCheck.vue"
 import Menu from "./components/Menu.vue"
 import Cookbook from "./components/Cookbook.vue"
+import addComment from './components/addComment.vue'
 
 Vue.use(Router);
 
@@ -49,6 +50,11 @@ export default new Router({
       path: "/restaurant/add",
       name: "addres",
       component: addRes
+    },
+    {
+      path: "/restaurant/comment",
+      name: "addComment",
+      component: addComment
     },
     {
       path: "/cookbook",

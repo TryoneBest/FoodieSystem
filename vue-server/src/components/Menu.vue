@@ -3,7 +3,7 @@
         <div class="restaurantContent">
             <h1>{{restaurant.name}}</h1>
             <h2>{{restaurant.address}}</h2>
-            <input type="button" value="back" @click="back" class="menuclick">
+            <input type="button" value="back" @click="back" class="click">
         </div>
         <div>
             <table>

@@ -2,7 +2,7 @@
     <div class="Cookbook">
         <div class="restaurantContent">
             <h1>{{ foodname }}</h1>
-            <input type="button" value="back" @click="back" class="menuclick">
+            <input type="button" value="back" @click="back" class="click">
         </div>
         <div v-if="!hascookbook">
             <h1>there is no cookbook</h1>
